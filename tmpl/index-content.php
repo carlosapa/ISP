@@ -146,45 +146,8 @@
 	</div> <!-- end of content__section services -->
 
 	<div class="content__section medium-space-before medium-space-after clearfix">
-		<h2 class="section_title">Unsere Stärken</h2>
-		<div class="splited_content clearfix">
-			
-			<div class="splited_content__item w-40 to-left bleed-right">
-				<div class="content_description medium-space-after">
-					<p>
-						Kompetenz und Innovation zu Ihrem Vorteil: 
-						Folgerichtige und konsequente Schritte zu zeitgemäßen Stahlkonstruktionen.
-					</p>
-				</div>
-				<div class="content_image img_holder-all">
-					<div class="content_image__holder">
-						<img src="img/rad_ph02.jpg" alt="" class="w-all">
-					</div>
-					<div class="caption_offset">
-						<span>Picture Caption 1</span>
-					</div>
-				</div>
-			</div>
-
-			<div class="splited_content__item w-60 to-right bleed-left bg_grey">
-				<ul class="content_list bleed-inside">
-					<p class="content_list__items">
-						Wir planen ihre Stahlkonstruktionen für: 
-						Chemieanlagen, Hüttenwerke, Kraftwerke, Zementwerke, Förderanlagen, Kokereien, Umwelttechnik, Sonderkonstruktionen, Versammlungsbauten, Sportstätten, Hallenbau.
-						Leistungen für den Industrie- und Hochbau:
-					</p>
-					
-					<li class="content_list__items">Beratung bei Projektgrundlagenerstellung</li>
-					<li class="content_list__items">Eigenverantwortliche Problemlösungen bei Projekterstellung</li>
-					<li class="content_list__items">Problemlösung von Bauherrenaufgaben</li>
-					<li class="content_list__items">Problemlösung von Objektplanungsaufgaben</li>
-					<li class="content_list__items">Problemlösung von Anlagenplanungsaufgaben</li>
-					<li class="content_list__items">Berücksichtigung von Fertigungsvorgaben</li>
-					<li class="content_list__items">Baustellenüberwachung</li>
-				</ul>
-			</div>
-
-		</div>
+		<h2 class="section_title">Stellenangebote</h2>
+		
 	</div> <!-- end of content__section services -->
 
 
