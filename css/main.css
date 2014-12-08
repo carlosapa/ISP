@@ -6,3 +6,24 @@
 	height: 5px; 
 	background: #eee;
 }
+
+.navigation_items {
+
+}
+
+.navigation_items .navigation_item {
+	background: none;
+	padding: 0;
+}
+
+.navigation_items .navigation_item.navigation_menu {
+	margin: 0 5px;
+}
+
+.navigation_items li.navigation_menu:last-child {
+	margin: 0 15px 0 5px;
+}
+
+.navigation_items .navigation_item.navigation_flags {
+	margin: 0 2px;
+}
