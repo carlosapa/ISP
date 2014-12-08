@@ -27,9 +27,6 @@ var set_heights = (function (win, doc, $) {
 		getter();
 		setter();		
 	})
-
-
-
-
-
 }(window, document, jQuery));
+
+
