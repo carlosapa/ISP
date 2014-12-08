@@ -60,17 +60,17 @@
 /*------------ MEDIA QUERIES ------------*/
 
 /* iPads (portrait and landscape) ----------- */
-@media (min-width : 768px) and (max-width : 1223px)    {
+@media (max-width : 1223px)    {
 
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media (min-width : 480px) and (max-width : 767px)    {
+@media (max-width : 767px)    {
 
 }
 
 /* Smartphones (portrait) ----------- */
-@media (min-width : 320px) and (max-width : 479px)    {
+@media (max-width : 479px)    {
 
 }
 
@@ -81,7 +81,7 @@
 }
 
 /* Desktops and laptops ----------- THE NORMAL ONE */
-@media (min-width : 1224px) and (max-width : 1823px)    {
+@media (max-width : 1823px)    {
 
 }
 
