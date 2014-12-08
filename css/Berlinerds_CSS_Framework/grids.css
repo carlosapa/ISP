@@ -1,0 +1,996 @@
+/* --- NOT FLUID GRID SYSTEM --- */
+
+/* 
+sass calculation:
+num
+container.width/num - (container.mRight/(num * num-1) 
+*/
+
+[class^=grid-] {
+	clear: both;
+}
+
+
+.grid-2 > .subgrid-2 {
+	width: 49.5%; 
+	float: left;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	margin-right: 1%;
+}
+
+
+.grid-2 > .subgrid-2:nth-of-type(2n) {
+	margin-right: 0%;
+}
+
+
+.grid-3 > .subgrid-3 {
+	width: 32.666666%;
+	float: left;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	margin-right: 1%;
+}
+
+
+.grid-3 > .subgrid-3:nth-of-type(3n) {
+	margin-right: 0%;
+}
+
+
+.grid-4 > .subgrid-4 {
+	width: 24.25%;
+	float: left;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	margin-right: 1%;
+}
+
+
+.grid-4 > .subgrid-4:nth-of-type(4n) {
+	margin-right: 0%;
+}
+
+
+.grid-5 > .subgrid-5 {
+	width: 19.2%;
+	float: left;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	margin-right: 1%;
+}
+
+
+.grid-5 > .subgrid-5:nth-of-type(5n) {
+	margin-right: 0%;
+}
+
+
+.grid-6 > .subgrid-6 {
+	width: 15.83333%;
+	float: left;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	margin-right: 1%;
+}
+
+
+.grid-6 > .subgrid-6:nth-of-type(6n) {
+	margin-right: 0%;
+}
+
+
+.grid-8 > .subgrid-8 {
+	width: 11.62333%;
+	float: left;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	margin-right: 1%;
+}
+
+
+.grid-8 > .subgrid-8:nth-of-type(8n) {
+	margin-right: 0%;
+}
+
+
+.grid-10 > .subgrid-10 {
+	width: 9.1%;
+	float: left;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	margin-right: 1%;
+}
+
+
+.grid-10 > .subgrid-10:nth-of-type(10n) {
+	margin-right: 0%;
+}
+
+
+.grid-12 > .subgrid-12 {
+	width: 7.415%;
+	float: left;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+	margin-right: 1%;
+}
+
+
+.grid-12 > .subgrid-12:nth-of-type(12n) {
+	margin-right: 0%;
+}
+
+
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width : 768px) and (max-width : 1223px)    {
+	.grid-2 > .subgrid-2 {
+		width: 49.5%; 
+		float: left;
+		margin-right: 1%;
+	}
+
+
+	.grid-2 > .subgrid-2:nth-of-type(2n) {
+		margin-right: 0%;
+	}
+
+
+	.grid-3 > .subgrid-3 {
+		width: 32.666666%;
+		float: left;
+		margin-right: 1%;
+	}
+
+
+	.grid-3 > .subgrid-3:nth-of-type(3n) {
+		margin-right: 0%;
+	}
+
+
+	.grid-4 > .subgrid-4 {
+		width: 24.25%;
+		float: left;
+		margin-right: 1%;
+	}
+
+
+	.grid-4 > .subgrid-4:nth-of-type(4n) {
+		margin-right: 0%;
+	}
+
+
+	.grid-5 > .subgrid-5 {
+		width: 19.2%;
+		float: left;
+		margin-right: 1%;
+	}
+
+
+	.grid-5 > .subgrid-5:nth-of-type(5n) {
+		margin-right: 0%;
+	}
+
+
+	.grid-6 > .subgrid-6 {
+		width: 15.83333%;
+		float: left;
+		margin-right: 1%;
+	}
+
+
+	.grid-6 > .subgrid-6:nth-of-type(6n) {
+		margin-right: 0%;
+	}
+
+
+	.grid-8 > .subgrid-8 {
+		width: 11.62333%;
+		float: left;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin-right: 1%;
+	}
+
+
+	.grid-8 > .subgrid-8:nth-of-type(8n) {
+		margin-right: 0%;
+	}
+
+
+	.grid-10 > .subgrid-10 {
+		width: 9.1%;
+		float: left;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin-right: 1%;
+	}
+
+
+	.grid-10 > .subgrid-10:nth-of-type(10n) {
+		margin-right: 0%;
+	}
+
+
+	.grid-12 > .subgrid-12 {
+		width: 7.415%;
+		float: left;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin-right: 1%;
+	}
+
+
+	.grid-12 > .subgrid-12:nth-of-type(12n) {
+		margin-right: 0%;
+	}
+
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width : 480px) and (max-width : 767px)    {
+	.grid-2 > .subgrid-2 {
+		width: 100%; 
+		float: left;
+		margin-right: 0%;
+	}
+
+
+	.grid-2 > .subgrid-2:nth-of-type(2n) {
+		margin-right: none;
+	}
+
+
+	.grid-3 > .subgrid-3 {
+		width: 100%; 
+		float: left;
+		margin-right: 0%;
+	}
+
+
+	.grid-3 > .subgrid-3:nth-of-type(3n) {
+		margin-right: none;
+	}
+
+
+	.grid-4 > .subgrid-4 {
+		width: 49.5%;
+		float: left;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin-right: 1%;
+	}
+
+
+	.grid-4 > .subgrid-4:nth-of-type(2n) {
+		margin-right: 0px;
+	}
+
+
+	.grid-4 > .subgrid-4:nth-of-type(4n) {
+		margin-right: none;
+	}
+
+
+	.grid-5 > .subgrid-5 {
+		width: 49.5%;
+		float: left;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin-right: 1%;
+	}
+
+
+	.grid-5 > .subgrid-5:nth-of-type(2n) {
+		margin-right: 0px;
+	}
+
+
+	.grid-5 > .subgrid-5:nth-of-type(5n) {
+		margin-right: none;
+	}
+
+
+	.grid-6 > .subgrid-6 {
+		width: 49.5%;
+		float: left;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin-right: 1%;
+	}
+
+
+	.grid-6 > .subgrid-6:nth-of-type(2n) {
+		margin-right: 0px;
+	}
+
+
+	.grid-6 > .subgrid-6:nth-of-type(6n) {
+		margin-right: none;
+	}
+
+
+	.grid-8 > .subgrid-8 {
+		width: 49.5%;
+		float: left;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin-right: 1%;
+	}
+
+
+	.grid-8 > .subgrid-8:nth-of-type(2n) {
+		margin-right: 0px;
+	}
+
+
+	.grid-8 > .subgrid-8:nth-of-type(8n) {
+		margin-right: none;	
+	}
+
+
+	.grid-10 > .subgrid-10 {
+		width: 49.5%;
+		float: left;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin-right: 1%;
+	}
+
+
+	.grid-10 > .subgrid-10:nth-of-type(2n) {
+		margin-right: 0px;
+	}
+
+
+	.grid-10 > .subgrid-10:nth-of-type(10n) {
+		margin-right: none;	
+	}
+
+
+	.grid-12 > .subgrid-12 {
+		width: 32.666666%;
+		float: left;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin-right: 1%;
+	}
+
+
+	.grid-12 > .subgrid-12:nth-of-type(3n) {
+		margin-right: 0px;
+	}
+
+
+	.grid-12 > .subgrid-12:nth-of-type(12n) {
+		margin-right: none;	
+	}
+
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media (min-width : 320px) and (max-width : 479px)    {
+	.grid-2 > .subgrid-2 {
+		width: 100%; 
+		float: left;
+		margin-right: 0%;
+	}
+
+
+	.grid-2 > .subgrid-2:nth-of-type(2n) {
+		margin-right: none;
+	}
+
+
+	.grid-3 > .subgrid-3 {
+		width: 100%; 
+		float: left;
+		margin-right: 0%;
+	}
+
+
+	.grid-3 > .subgrid-3:nth-of-type(3n) {
+		margin-right: none;
+	}
+
+
+	.grid-4 > .subgrid-4 {
+		width: 100%; 
+		float: left;
+		margin-right: 0%;
+	}
+
+
+	.grid-4 > .subgrid-4:nth-of-type(4n) {
+		margin-right: none;
+	}
+
+
+	.grid-5 > .subgrid-5 {
+		width: 100%; 
+		float: left;
+		margin-right: 0%;
+	}
+
+
+	.grid-5 > .subgrid-5:nth-of-type(5n) {
+		margin-right: none;
+	}
+
+
+	.grid-6 > .subgrid-6 {
+		width: 100%; 
+		float: left;
+		margin-right: 0%;
+	}
+
+
+	.grid-6 > .subgrid-6:nth-of-type(6n) {
+		margin-right: none;
+	}
+
+
+	.grid-8 > .subgrid-8 {
+		width: 49.5%;
+		float: left;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin-right: 1%;
+	}
+
+
+	.grid-8 > .subgrid-8:nth-of-type(2n) {
+		margin-right: 0%;
+	}
+
+
+	.grid-8 > .subgrid-8:nth-of-type(8n) {
+		margin-right: none;
+	}
+
+
+	.grid-10 > .subgrid-10 {
+		width: 49.5%;
+		float: left;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin-right: 1%;
+	}
+
+
+	.grid-10 > .subgrid-10:nth-of-type(2n) {
+		margin-right: 0%;
+	}
+
+
+	.grid-10 > .subgrid-10:nth-of-type(10n) {
+		margin-right: none;
+	}
+
+
+	.grid-12 > .subgrid-12 {
+		width: 49.5%;
+		float: left;
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin-right: 1%;
+	}
+
+
+	.grid-12 > .subgrid-12:nth-of-type(2n) {
+		margin-right: 0%;
+	}
+
+
+	.grid-12 > .subgrid-12:nth-of-type(12n) {
+		margin-right: none;
+	}
+
+}
+
+
+
+/* Large screens ----------- IF YOU HAVE VERY LARGE STUFF*/
+@media (min-width : 1824px) {
+
+}
+
+
+/* Desktops and laptops ----------- THE NORMAL ONE */
+@media (min-width : 1224px) and (max-width : 1823px)    {
+
+
+}
+
+
+
+/* --- FLUID GRID SYSTEM BASED ON BOOTSTRAP SYSTEM--- */
+
+/* 
+*/
+
+.bgrid-container {
+
+}
+
+
+.bgrid-1, .bgrid-2, .bgrid-3, .bgrid-4, .bgrid-5, .bgrid-6, .bgrid-7, .bgrid-8, .bgrid-9, .bgrid-10, .bgrid-11, .bgrid-12 {
+ 	float: left;
+	position: relative;
+	min-height: 1px;
+}
+
+
+.bgrid-12 {
+    width: 100%;
+}
+
+.bgrid-11 {
+    width: 91.66666667%;
+}
+
+.bgrid-10 {
+    width: 83.33333333%;
+}
+
+.bgrid-9 {
+    width: 75%;
+}
+
+.bgrid-8 {
+    width: 66.66666667%;
+}
+
+.bgrid-7 {
+    width: 58.33333333%;
+}
+
+.bgrid-6 {
+    width: 50%;
+}
+
+.bgrid-5 {
+    width: 41.66666667%;
+}
+
+.bgrid-4 {
+    width: 33.33333333%;
+}
+
+.bgrid-3 {
+    width: 25%;
+}
+
+.bgrid-2 {
+    width: 16.66666667%;
+}
+
+.bgrid-1 {
+    width: 8.33333333%;
+}
+
+.bgrid-pull-12 {
+    right: 100%;
+}
+
+.bgrid-pull-11 {
+    right: 91.66666667%;
+}
+
+.bgrid-pull-10 {
+    right: 83.33333333%;
+}
+
+.bgrid-pull-9 {
+    right: 75%;
+}
+
+.bgrid-pull-8 {
+    right: 66.66666667%;
+}
+
+.bgrid-pull-7 {
+    right: 58.33333333%;
+}
+
+.bgrid-pull-6 {
+    right: 50%;
+}
+
+.bgrid-pull-5 {
+    right: 41.66666667%;
+}
+
+.bgrid-pull-4 {
+    right: 33.33333333%;
+}
+
+.bgrid-pull-3 {
+    right: 25%;
+}
+
+.bgrid-pull-2 {
+    right: 16.66666667%;
+}
+
+.bgrid-pull-1 {
+    right: 8.33333333%;
+}
+
+.bgrid-pull-0 {
+    right: auto;
+}
+
+.bgrid-push-12 {
+    left: 100%;
+}
+
+.bgrid-push-11 {
+    left: 91.66666667%;
+}
+
+.bgrid-push-10 {
+    left: 83.33333333%;
+}
+
+.bgrid-push-9 {
+    left: 75%;
+}
+
+.bgrid-push-8 {
+    left: 66.66666667%;
+}
+
+.bgrid-push-7 {
+    left: 58.33333333%;
+}
+
+.bgrid-push-6 {
+    left: 50%;
+}
+
+.bgrid-push-5 {
+    left: 41.66666667%;
+}
+
+.bgrid-push-4 {
+    left: 33.33333333%;
+}
+
+.bgrid-push-3 {
+    left: 25%;
+}
+
+.bgrid-push-2 {
+    left: 16.66666667%;
+}
+
+.bgrid-push-1 {
+    left: 8.33333333%;
+}
+
+.bgrid-push-0 {
+    left: auto;
+}
+
+.bgrid-offset-12 {
+    margin-left: 100%;
+}
+
+.bgrid-offset-11 {
+    margin-left: 91.66666667%;
+}
+
+.bgrid-offset-10 {
+    margin-left: 83.33333333%;
+}
+
+.bgrid-offset-9 {
+    margin-left: 75%;
+}
+
+.bgrid-offset-8 {
+    margin-left: 66.66666667%;
+}
+
+.bgrid-offset-7 {
+    margin-left: 58.33333333%;
+}
+
+.bgrid-offset-6 {
+    margin-left: 50%;
+}
+
+.bgrid-offset-5 {
+    margin-left: 41.66666667%;
+}
+
+.bgrid-offset-4 {
+    margin-left: 33.33333333%;
+}
+
+.bgrid-offset-3 {
+    margin-left: 25%;
+}
+
+.bgrid-offset-2 {
+    margin-left: 16.66666667%;
+}
+
+.bgrid-offset-1 {
+    margin-left: 8.33333333%;
+}
+
+.bgrid-offset-0 {
+    margin-left: 0%;
+}
+
+
+
+/* Desktops and laptops ----------- THE NORMAL ONE 2.0 */
+@media (min-width : 768px) and (max-width : 1223px)    {
+
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width : 480px) and (max-width : 767px)    {
+	.bgrid-container {
+	
+	}
+
+	.bgrid-1, .bgrid-2, .bgrid-3, .bgrid-4, .bgrid-5, .bgrid-6, .bgrid-7, .bgrid-8, .bgrid-9, .bgrid-10, .bgrid-11, .bgrid-12 {
+	 	float: left;
+		position: relative;
+		min-height: 1px;
+		margin-bottom: 1%;
+	}
+
+	.bgrid-12 {  width: 100%;  }
+
+	.bgrid-11 {  width: 100%;  }
+
+	.bgrid-10 {  width: 100%;  }
+
+	.bgrid-9 {  width: 100%;  }
+
+	.bgrid-8 {  width: 100%;  }
+
+	.bgrid-7 {  width: 100%;  }
+
+	.bgrid-6 {  width: 100%;  }
+
+	.bgrid-5 {  width: 100%;  }
+
+	.bgrid-4 {  width: 100%;  }
+
+	.bgrid-3 {  width: 100%;  }
+
+	.bgrid-2 {  width: 100%;  }
+
+	.bgrid-1 {  width: 100%;  }
+
+	.bgrid-pull-12 {  right: 0;  }
+
+	.bgrid-pull-11 {  right: 0;  }
+
+	.bgrid-pull-10 {  right: 0;  }
+
+	.bgrid-pull-9 {  right: 0;  }
+
+	.bgrid-pull-8 {  right: 0;  }
+
+	.bgrid-pull-7 {  right: 0;  }
+
+	.bgrid-pull-6 {  right: 0;  }
+
+	.bgrid-pull-5 {  right: 0;  }
+
+	.bgrid-pull-4 {  right: 0;  }
+
+	.bgrid-pull-3 {  right: 0;  }
+
+	.bgrid-pull-2 {  right: 0;  }
+
+	.bgrid-pull-1 {  right: 0;  }
+
+	.bgrid-pull-0 {  right: 0;  }
+
+	.bgrid-push-12 {  left: 0;  }
+
+	.bgrid-push-11 {  left: 0;  }
+
+	.bgrid-push-10 {  left: 0;  }
+
+	.bgrid-push-9 {  left: 0;  }
+
+	.bgrid-push-8 {  left: 0;  }
+
+	.bgrid-push-7 {  left: 0;  }
+
+	.bgrid-push-6 {  left: 0;  }
+
+	.bgrid-push-5 {  left: 0;  }
+
+	.bgrid-push-4 {  left: 0;  }
+
+	.bgrid-push-3 {  left: 0;  }
+
+	.bgrid-push-2 {  left: 0;  }
+
+	.bgrid-push-1 {  left: 0;  }
+
+	.bgrid-push-0 {  left: 0;  }
+
+	.bgrid-offset-12 {  margin-left: 0px;  }
+
+	.bgrid-offset-11 {  margin-left: 0px;  }
+
+	.bgrid-offset-10 {  margin-left: 0px;  }
+
+	.bgrid-offset-9 {  margin-left: 0px;  }
+
+	.bgrid-offset-8 {  margin-left: 0px;  }
+
+	.bgrid-offset-7 {  margin-left: 0px;  }
+
+	.bgrid-offset-6 {  margin-left: 0px;  }
+
+	.bgrid-offset-5 {  margin-left: 0px;  }
+
+	.bgrid-offset-4 {  margin-left: 0px;  }
+
+	.bgrid-offset-3 {  margin-left: 0px;  }
+
+	.bgrid-offset-2 {  margin-left: 0px;  }
+
+	.bgrid-offset-1 {  margin-left: 0px;  }
+
+	.bgrid-offset-0 {  margin-left: 0%;  }
+
+}
+
+
+/* Smartphones (portrait) ----------- */
+@media (max-width : 479px)    {
+	.bgrid-container {
+	
+	}
+
+	.bgrid-1, .bgrid-2, .bgrid-3, .bgrid-4, .bgrid-5, .bgrid-6, .bgrid-7, .bgrid-8, .bgrid-9, .bgrid-10, .bgrid-11, .bgrid-12 {
+	 	float: left;
+		position: relative;
+		min-height: 1px;
+		margin-bottom: 1%;
+	}
+
+	.bgrid-12 {  width: 100%;  }
+
+	.bgrid-11 {  width: 100%;  }
+
+	.bgrid-10 {  width: 100%;  }
+
+	.bgrid-9 {  width: 100%;  }
+
+	.bgrid-8 {  width: 100%;  }
+
+	.bgrid-7 {  width: 100%;  }
+
+	.bgrid-6 {  width: 100%;  }
+
+	.bgrid-5 {  width: 100%;  }
+
+	.bgrid-4 {  width: 100%;  }
+
+	.bgrid-3 {  width: 100%;  }
+
+	.bgrid-2 {  width: 100%;  }
+
+	.bgrid-1 {  width: 100%;  }
+
+	.bgrid-pull-12 {  right: 0;  }
+
+	.bgrid-pull-11 {  right: 0;  }
+
+	.bgrid-pull-10 {  right: 0;  }
+
+	.bgrid-pull-9 {  right: 0;  }
+
+	.bgrid-pull-8 {  right: 0;  }
+
+	.bgrid-pull-7 {  right: 0;  }
+
+	.bgrid-pull-6 {  right: 0;  }
+
+	.bgrid-pull-5 {  right: 0;  }
+
+	.bgrid-pull-4 {  right: 0;  }
+
+	.bgrid-pull-3 {  right: 0;  }
+
+	.bgrid-pull-2 {  right: 0;  }
+
+	.bgrid-pull-1 {  right: 0;  }
+
+	.bgrid-pull-0 {  right: 0;  }
+
+	.bgrid-push-12 {  left: 0;  }
+
+	.bgrid-push-11 {  left: 0;  }
+
+	.bgrid-push-10 {  left: 0;  }
+
+	.bgrid-push-9 {  left: 0;  }
+
+	.bgrid-push-8 {  left: 0;  }
+
+	.bgrid-push-7 {  left: 0;  }
+
+	.bgrid-push-6 {  left: 0;  }
+
+	.bgrid-push-5 {  left: 0;  }
+
+	.bgrid-push-4 {  left: 0;  }
+
+	.bgrid-push-3 {  left: 0;  }
+
+	.bgrid-push-2 {  left: 0;  }
+
+	.bgrid-push-1 {  left: 0;  }
+
+	.bgrid-push-0 {  left: 0;  }
+
+	.bgrid-offset-12 {  margin-left: 0px;  }
+
+	.bgrid-offset-11 {  margin-left: 0px;  }
+
+	.bgrid-offset-10 {  margin-left: 0px;  }
+
+	.bgrid-offset-9 {  margin-left: 0px;  }
+
+	.bgrid-offset-8 {  margin-left: 0px;  }
+
+	.bgrid-offset-7 {  margin-left: 0px;  }
+
+	.bgrid-offset-6 {  margin-left: 0px;  }
+
+	.bgrid-offset-5 {  margin-left: 0px;  }
+
+	.bgrid-offset-4 {  margin-left: 0px;  }
+
+	.bgrid-offset-3 {  margin-left: 0px;  }
+
+	.bgrid-offset-2 {  margin-left: 0px;  }
+
+	.bgrid-offset-1 {  margin-left: 0px;  }
+
+	.bgrid-offset-0 {  margin-left: 0%;  }
+}
+
+
+/* Large screens ----------- IF YOU HAVE VERY LARGE STUFF*/
+@media (min-width : 1824px) {
+
+}
+
+
+/* Desktops and laptops ----------- THE NORMAL ONE */
+@media (min-width : 1224px) and (max-width : 1823px)    {
+
+}
+
+
+
+
+
+
+
+
+
+

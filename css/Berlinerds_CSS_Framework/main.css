@@ -1,0 +1,88 @@
+/*--- Reset from Boilerplate ---*/
+@import url("normalize.css");
+@import url("reset.css");
+
+/*--- Font-face ---*/
+@import url("fonts.css");
+
+/*--- Grids, positioning ---*/
+@import url("grids.css");
+@import url("positioning.css");
+
+/*--- css styling ---*/
+@import url("general_classes.css");
+@import url("typography.css");
+@import url("tables.css");
+@import url("forms.css");
+@import url("buttons.css");
+
+/*--- Icons ---*/
+@import url("icons.css");
+
+/*--- Animations ---*/
+@import url("animations.css");
+
+/*--- Components ---*/
+@import url("components.css");
+
+/*--- Styles here ---*/
+
+/*------------ CONCRETE CLASSES ------------*/
+
+
+.clear {
+	clear: both;
+}
+
+.grid-background {
+	background-color: #ddd;
+	border: 1px solid #aaa;
+}
+
+.grid-prueba {
+	height: 130px;
+	border: 1px solid #aaa;
+	padding: 3px;
+}
+
+
+
+/*------------ HEADER ------------*/
+
+/*------------ INDEX ------------*/
+
+/*------------ BLOG ------------*/
+
+/*------------ SINGLE ------------*/
+
+/*------------ FOOTER ------------*/
+
+/*------------ MEDIA QUERIES ------------*/
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width : 768px) and (max-width : 1223px)    {
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media (min-width : 480px) and (max-width : 767px)    {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media (min-width : 320px) and (max-width : 479px)    {
+
+}
+
+
+/* Large screens ----------- IF YOU HAVE VERY LARGE STUFF*/
+@media (min-width : 1824px) {
+
+}
+
+/* Desktops and laptops ----------- THE NORMAL ONE */
+@media (min-width : 1224px) and (max-width : 1823px)    {
+
+}
+
+

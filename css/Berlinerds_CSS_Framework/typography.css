@@ -1,0 +1,429 @@
+h1 {
+	font-size: 2.3em;
+	font-size: 2.3rem;
+
+}
+
+h2 {
+	font-size: 1.9em;
+	font-size: 1.9rem;	
+}
+
+h3 {
+	font-size: 1.6em;
+	font-size: 1.6rem;	
+}
+
+h4 {
+	font-size: 1.4em;
+	font-size: 1.4rem;	
+}
+
+h5 {
+	font-size: 1.2em;
+	font-size: 1.2rem;	
+}
+
+h6 {
+	font-size: 1em;
+	font-size: 1rem;	
+}
+
+h1 small {
+	opacity: 0.6;	
+	text-transform: uppercase;
+	font-size: 0.6em;
+}
+
+h2 small {
+	opacity: 0.6;	
+	text-transform: uppercase;
+	font-size: 0.6em;
+}
+
+h3 small {
+	opacity: 0.6;	
+	text-transform: uppercase;
+	font-size: 0.6em;	
+}
+
+h4 small {
+	opacity: 0.6;	
+	text-transform: uppercase;
+	font-size: 0.7em;
+}
+
+h5 small {
+	opacity: 0.6;	
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+
+h6 small {
+	opacity: 0.6;	
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+
+p {
+	font-size: 0.95em;
+	line-height: 1.35em;
+	color: #444;
+}
+
+b, strong {
+	font-weight: bold;
+	color: #333;
+}
+
+blockquote {
+	margin: 1.6em 0;
+	font-size: 0.95em;
+	font-style: italic;
+	color: #777;
+	padding: 10px 0 10px 40px;
+	border-left: 4px solid #eee;
+}
+
+/*--- codes, pres and so on... ---*/
+
+code {
+	font-size: 0.85em;
+	letter-spacing: -0.3px;
+	word-spacing: -0.7px;
+	line-height: 1.3em;
+	padding: 1px 6px;
+	background: #F2F2F2;
+	color: #555;
+	position: relative;	
+	margin: 1em 0;
+	border: 1px solid #D2D2D2;
+	border-radius: 2px;
+}
+
+code.code_inline {
+	font-size: 0.9em;
+	padding: 1px 6px;
+	letter-spacing: -0.3px;
+	word-spacing: -0.7px;
+	background: #F2F2F2;
+	color: #C02E6B;
+	border: 1px solid #D2D2D2;
+	border-radius: 2px;
+}
+
+code.code_block {
+	display: block;
+	padding: 1.7em 1em;
+}
+
+code.code_block::before {
+	content: '<code>';
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	color: #CBCBCB;
+	margin: 3px 1em;
+	font-size: 0.9em;
+}
+
+code:not(.code_block)::before {
+	content: '';
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	color: #CBCBCB;
+	margin: 3px 1em;
+	font-size: 0.9em;
+}
+
+pre {
+	font-size: 0.85em;
+	letter-spacing: -0.3px;
+	word-spacing: -0.7px;
+	line-height: 1.3em;
+	padding: 1.7em 1em;
+	background: #F2F2F2;
+	color: #555;
+	position: relative;
+}
+
+pre::before {
+	content: '<pre>';
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	color: #CBCBCB;
+	margin: 3px 1em;
+	font-size: 0.9em;
+}
+
+kbd {
+	font-size: 0.9em;
+	padding: 1px 6px;
+	letter-spacing: -0.3px;
+	word-spacing: -0.7px;
+	background: #F2F2F2;
+	color: #3F7CB8;
+	border: 1px solid #D2D2D2;
+	border-radius: 2px;
+}
+
+/*--- inline images ---*/
+
+div[class*=img_holder] {
+	position: relative;
+}
+
+.img_holder {
+	overflow: hidden;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+	display: inline-block;
+}
+
+.img_holder-framed {
+	overflow: hidden;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+	display: inline-block;
+	background: #eee;
+	padding: 0.5em;
+}
+
+.img_holder.to-left { margin: 0em 1em 1em 0; }
+.img_holder.to-right { margin: 0em 0 1em 1em; }
+
+.img_holder img, 
+.img_holder-framed img {
+	margin-bottom: 0px;
+}
+
+
+
+/*--- whole block images ---*/
+
+.img_holder-all {
+	overflow: hidden;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+	margin: 1em 0;
+	text-align: center;
+}
+
+.img_holder-all img {
+	width: 100%;
+	height: auto;
+}
+
+div[class*=img_holder-clear-] {
+	overflow: hidden;
+	margin: 1em 0;
+	background: #eee;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.07) inset;
+}
+
+.img_holder-clear-center {
+	text-align: center;
+}
+
+.img_holder-clear-left {
+	text-align: left;
+}
+
+.img_holder-clear-right {
+	text-align: right;
+}
+
+.img_holder-clear-center img,
+.img_holder-clear-left img,
+.img_holder-clear-right img {
+	height: auto;
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+	margin-bottom: 0px;
+}
+
+/*--- captions ---*/
+
+.caption_offset {
+	font-size: 0.8em;
+	text-align: left;
+	width: 80%;
+	padding: 0.5em 1em 0.5em 2em;	
+	font-style: italic;
+	color: #777;
+	position: relative;
+	line-height: 1.2em;
+	margin: 10px 0 0 10px;
+	border-top: 1px solid #eee;
+}
+
+.caption_offset::before {
+	content: "\e046";
+	font-family: 'icons Halflings';
+	position: absolute;
+	font-style: normal;
+	color: #D2D2D2;
+	left: 6px;
+	top: 5px;
+}
+
+div[class*=img_holder-clear-] > .caption_offset {
+	border-top: 1px solid #ddd;
+}
+
+.img_holder-clear-left > .caption_offset,
+.img_holder-clear-center > .caption_offset {
+	text-align: left;
+} 
+
+.img_holder-clear-right > .caption_offset {
+	text-align: right;
+	float: right;
+	padding: 0.5em 2em 0.5em 1em;	
+	margin: 10px 10px 0 0;
+}
+
+@media (max-width : 767px)  {
+	.img_holder-clear-right > .caption_offset {
+		text-align: left;
+		float: left;
+		padding: 0.5em 1em 0.5em 2em;	
+		margin: 10px 0 0 10px;
+	}
+}
+
+.img_holder-clear-right > .caption_offset::before {
+	right: 6px;
+} 
+
+.img_holder > .caption_offset, 
+.img_holder-framed > .caption_offset {
+	font-size: 0.8em;
+	text-align: left;
+	width: 90%;
+	padding: 0.5em 1em 0.5em 2em;	
+	font-style: italic;
+	color: #777;
+	position: relative;
+	line-height: 1.2em;
+	margin: 10px 0 0 10px;
+	border-top: 1px solid #eee;	
+}
+
+.caption_inset {
+	font-size: 0.8em;
+	text-align: left;
+	width: 100%;
+	padding: 1em 1.7em 1em 2.6em;
+	font-style: italic;
+	color: #BBB;
+	position: absolute;
+	line-height: 1.2em;	
+	bottom: -13px;
+	background: rgba(0, 0, 0, 0.57);
+}
+
+.caption_inset::before {
+	content: "\e046";
+	font-family: 'icons Halflings';
+	position: absolute;
+	font-style: normal;
+	color: #949494;
+	left: 11px;
+	top: 11px;
+}
+
+.img_holder > .caption_inset, 
+.img_holder-framed > .caption_inset {
+	width: 100%;
+}
+
+/*---- lists ---*/
+
+ul, ol {
+	margin: 1em 0;
+	padding: 0 0 0 1.4em;
+}
+
+ul > *, ol > * {
+	padding: 0px;
+}
+
+ul.no-marks, ol.no-marks {
+	list-style: none;
+	padding: 0;
+}
+
+ul li, ol li {
+	font-size: 0.95em;
+	line-height: 1.35em;
+	color: #444;
+}
+
+p > ul li, p > ol li {
+	font-size: 1em;
+}
+
+ul li > ul {
+	margin: 0.5em 0;
+	list-style: disc;
+}
+
+ol li > ol {
+	margin: 0.5em 0;
+}
+
+ol li > ol > li {
+	font-size: 1em;s
+}
+
+ul li > ul > li {
+	font-size: 1em;
+}
+
+ul li > ul > li > ul {
+	list-style: disc;
+}
+
+.menu-inline {
+	margin: 1em 0;
+}
+
+.menu-inline li {
+	float: left;
+	display: inline-block;
+	padding: 3px 16px;
+	background: #eee;
+	margin: 0 10px;
+}
+
+.menu-inline li:first-of-type {
+	margin: 0 10px 0 0;
+}
+
+.menu-inline li:last-of-type {
+	margin: 0 0 0 10px;
+}
+
+@media (max-width : 767px)  {
+	.menu-inline {
+		margin: 1em 0;
+	}
+
+	.menu-inline li {
+		float: none;
+		display: block;
+		padding: 3px 16px;
+		background: #eee;
+		margin: 7px 0;
+	}
+
+	.menu-inline li:first-of-type {
+		margin: 0;
+	}
+
+	.menu-inline li:last-of-type {
+		margin: 0;
+	}
+}
+
+
+

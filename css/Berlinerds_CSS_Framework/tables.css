@@ -1,0 +1,58 @@
+table, table.table-normal {
+	width: 100%;
+}
+
+thead {
+	background: #F2F2F2;
+}
+
+th {
+	border: 1px solid #D2D2D2;
+	text-align: left;
+	padding: 6px 9px;
+	color: #444;
+	font-size: 0.95em;
+
+}
+
+tr {
+	border-bottom: 2px solid #D5D5D5;
+}
+
+td {
+	border: 1px solid #D2D2D2;
+	text-align: left;
+	padding: 6px 9px;
+	color: #848484;
+	font-size: 0.95em;
+}
+
+p td, p th {
+ font-size: 1em;
+}
+
+.table-zebra tr:nth-child(2n) {
+	background: #F9F9F9;
+}
+
+.table-noborders td, .table-noborders th, 
+.table-noborders tr, .table-noborders thead {
+	border: 0px;
+}  
+
+.table-borders {
+
+}
+
+.table-borders tr {
+	border-bottom: 1px solid #D5D5D5 !important;
+}
+
+.table-borders tr:last-child {
+	border-bottom: 0px solid #D5D5D5 !important;
+}
+
+.table-borders td {
+	background: transparent;
+	border: 0px;
+}
