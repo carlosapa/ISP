@@ -1,1 +1,8 @@
 @import url('Berlinerds_CSS_Framework/main.css');
+
+/* head */
+
+.head_line {
+	height: 5px; 
+	background: #eee;
+}
