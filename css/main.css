@@ -27,3 +27,25 @@
 .navigation_items .navigation_item.navigation_flags {
 	margin: 0 2px;
 }
+
+/* slider */
+
+.head_slider {
+	min-height: 300px;
+}
+
+.head_slider__holder {
+	background: #eaeaea;
+}
+
+.slider_next, .slider_back {
+	top: 0px;
+}
+
+.slider_next {
+	right: 0px;
+}
+
+.slider_back {
+	left: 0px;
+}
