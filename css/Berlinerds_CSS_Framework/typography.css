@@ -388,7 +388,6 @@ ul li > ul > li > ul {
 }
 
 .menu-inline li {
-	float: left;
 	display: inline-block;
 	padding: 3px 16px;
 	background: #eee;
