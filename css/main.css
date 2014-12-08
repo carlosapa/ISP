@@ -24,6 +24,10 @@ h1, h2 {
 	color: rgb(34, 151, 194);
 }
 
+.bg_grey {
+	background: #F5F5F5;
+}
+
 /* head */
 
 .head_line {
@@ -161,7 +165,7 @@ h1, h2 {
 
 .service:hover {
 	box-shadow: 0 0 3px rgba(0,0,0,0.2);
-	
+
 	-webkit-transition: box-shadow 400ms ease;
 	-moz-transition: box-shadow 400ms ease;
 	-ms-transition: box-shadow 400ms ease;
@@ -194,6 +198,48 @@ h1, h2 {
 	color: #616161;
 	width: 102%;
 	left: -1%;
+}
+
+.splited_content__item {
+	position: relative;
+}
+
+.content_image {
+	margin-bottom: 0px;
+	position: absolute !important;
+	bottom: 0px;
+	width: 90%;
+}
+
+.content_image__holder {
+	height: 160px;
+	overflow: hidden;
+}
+
+.content_list {
+	padding-left: 35px;
+}
+
+.content_list__items {
+	list-style: none;
+	margin: 5px 0px;
+	padding: 0px;
+	position: relative;
+	color: #777;
+}
+
+p.content_list__items {
+	margin-bottom: 1.2em;
+}
+
+li.content_list__items::before {
+	content: '';
+	width: 17px;
+	background: rgb(181, 223, 237);
+	height: 13px;
+	position: absolute;
+	top: 3px;
+	left: -29px;
 }
 
 
