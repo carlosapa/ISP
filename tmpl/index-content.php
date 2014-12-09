@@ -171,7 +171,7 @@
 			<div class="job subgrid-3 clearfix">
 				<div class="services relative">
 					<div class="services_image w-all h-all hoverable hoverable">
-						<img src="img/Fachkräftemangel_Ingenieure-.jpg" alt="" class="w-all">
+						<img src="img/Fachkraftemangel_Ingenieure-.jpg" alt="" class="w-all">
 					</div>
 					<div class="services_title absolute w-all">
 						Azubis

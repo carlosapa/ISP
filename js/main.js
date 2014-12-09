@@ -84,7 +84,33 @@ var init_slider = (function (win, doc, $) {
 }(window, document, jQuery));
 
 
+/*=== init colorbox ===*/
 
+var init_colorbox = (function () {
+
+	var project_box = $('.proyect_pics');
+	var project_length = project_box.length;
+
+	for (var i = 1; i < project_length; i++) {
+
+		$('.group' + i).colorbox({
+			rel:'group' + i, 
+			transition:"elastic",
+			width:"70%", 
+			height:"70%"
+		});
+
+		// youtube and vimeo
+		$('.iframe.group' + i).colorbox({
+			rel:'group' + i, 
+			transition:"elastic",
+			iframe:true,
+			width:"70%", 
+			height:"70%"
+		});
+	}
+
+}(window, document, jQuery));
 
 
 

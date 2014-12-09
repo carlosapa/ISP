@@ -353,6 +353,42 @@ li.content_list__items::before {
 	left: -29px;
 }
 
+/* projekte */
+
+.proyect_pics__items a {
+	display: block;
+	position: relative;
+}
+
+.proyect_pics__items a.iframe::before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	top: 0px;
+	left: 0px;
+	position: absolute;
+}
+
+.proyect_pics__items a.iframe::after {
+	content: '\f144';
+	font-family: 'FontAwesome';
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	position: absolute;
+	font-size: 2.4em;
+	opacity: 0.9;
+	width: 2.4em;
+	text-align: center;
+	
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
 /* footer map */
 
 .contact_img_holder {

@@ -3,6 +3,9 @@
   src: url('fonts/icons/icons-halflings-regular.eot');
   src: url('fonts/icons/icons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/icons/icons-halflings-regular.woff') format('woff'), url('fonts/icons/icons-halflings-regular.ttf') format('truetype'), url('fonts/icons/icons-halflings-regular.svg#icons_halflingsregular') format('svg');
 }
+
+@import url('fonts/font_awesome/font-awesome.min.css');
+
 .icon {
   position: relative;
   top: 1px;

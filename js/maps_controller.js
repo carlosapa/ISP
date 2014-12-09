@@ -18,9 +18,13 @@ var initialize = (function () {
 		disableDefaultUI: true,
 		scrollwheel: false
 	};
-	map = new google.maps.Map(document.getElementById('map'), mapOptions);
-	map.mapTypes.set('map_style', styledMap);
-	map.setMapTypeId('map_style');
+
+	if (document.getElementById('map') !== null) {
+		map = new google.maps.Map(document.getElementById('map'), mapOptions);
+		map.mapTypes.set('map_style', styledMap);
+		map.setMapTypeId('map_style');
+	}
 });
 
 loadScript('http://maps.googleapis.com/maps/api/js?v=3&sensor=false&callback=initialize', function(){});
+

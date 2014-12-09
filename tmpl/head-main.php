@@ -25,7 +25,7 @@
 						</a>
 						</li>
 					<li class="navigation_item navigation_menu">
-						<a href="#" target="_self" class="clean_link">
+						<a href="projekte.php" target="_self" class="clean_link">
 							<span>Projekte</span>
 						</a>
 						</li>

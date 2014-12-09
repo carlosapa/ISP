@@ -8,9 +8,32 @@
 			<h1>Dienstleistungen</h1>
 		</div>
 		
-		<div class="section_body w-60">
-			<h3>Das Unternehmen</h3>
-			<p class="talign_justify">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+		<div class="section_body w-all">
+
+			<div class="content__section medium-space-before medium-space-after clearfix">
+				<h2 class="section_title">Wir über uns</h2>
+				<div class="splited_content clearfix">
+					
+					<div class="splited_content__item w-40 to-left bleed-right">
+
+					</div>
+
+					<div class="splited_content__item w-60 to-right bleed-left bg_grey">
+						<ul class="content_list bleed-inside">
+							<li class="content_list__items">ISP ist 27 Jahre im Segment Stahlbauplanung tätig</li>
+							<li class="content_list__items">20 qualifizierte Mitarbeiter und Mitarbeiterinnen</li>
+							<li class="content_list__items">27 Jahre Erfahrung eines modernen Büros ein umfangreiches Leistungssortiment</li>
+							<li class="content_list__items">Die technische Ausstattung mit 20 CAD Arbeitsplätzen und zugehöriger </li>
+							<li class="content_list__items">Software für Statik, Planung und Konstruktion</li>
+							<li class="content_list__items">Mitgliedschaften zum Vorteil unserer Kunden</li>
+							<li class="content_list__items">Beratende Ingenieure IK Bau NW</li>
+							<li class="content_list__items">Deutscher Stahlbauverband</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> <!-- end of content__section services -->
 
 
 		</div>
