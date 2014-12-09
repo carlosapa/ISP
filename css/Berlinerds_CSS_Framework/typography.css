@@ -395,11 +395,14 @@ ul li > ul > li > ul {
 }
 
 .menu-inline .menu-inline_separation_a {
-	margin-right: 1em;
+	padding-right: 1.2em !important;
+	margin-right: -4px !important;
+	border-right: 2px solid #eaeaea;
 }
 
 .menu-inline .menu-inline_separation_b {
-	margin-left: 1em;
+	padding-left: 1.2em !important;
+	margin-left: -3px !important;
 }
 
 .menu-inline li:first-of-type {
