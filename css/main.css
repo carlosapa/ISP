@@ -182,12 +182,25 @@ h1, h2 {
 	overflow: hidden;
 }
 
+.jobs .services_image {
+	height: 190px;
+	overflow: hidden;
+}
+
 .services_image > img {
 	-webkit-transform: scale3d(1.45, 1.45, 1);
 	-moz-transform: scale3d(1.45, 1.45, 1);
 	-ms-transform: scale3d(1.45, 1.45, 1);
 	-o-transform: scale3d(1.45, 1.45, 1);
 	transform: scale3d(1.45, 1.45, 1);
+}
+
+.jobs .services_image > img {
+	-webkit-transform: scale3d(1, 1, 1);
+	-moz-transform: scale3d(1, 1, 1);
+	-ms-transform: scale3d(1, 1, 1);
+	-o-transform: scale3d(1, 1, 1);
+	transform: scale3d(1, 1, 1);
 }
 
 .services_title {

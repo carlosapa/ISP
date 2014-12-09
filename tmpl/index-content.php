@@ -149,13 +149,34 @@
 		<h2 class="section_title">Stellenangebote</h2>
 		<div class="jobs grid-3 clearfix">
 			<div class="job subgrid-3 clearfix">
-				Karriere
+				<div class="services relative">
+					<div class="services_image w-all h-all hoverable">
+						<img src="img/ingenieur-oiq-equivalence-800x533.jpg" alt="" class="w-all">
+					</div>
+					<div class="services_title absolute w-all">
+						Karriere
+					</div>
+				</div>
 			</div>
 			<div class="job subgrid-3 clearfix">
-				Praktika
+				<div class="services relative">
+					<div class="services_image w-all h-all hoverable">
+						<img src="img/duale-akad-ausbildung.jpg" alt="" class="w-all">
+					</div>
+					<div class="services_title absolute w-all">
+						Praktika
+					</div>
+				</div>
 			</div>
 			<div class="job subgrid-3 clearfix">
-				Azubis
+				<div class="services relative">
+					<div class="services_image w-all h-all hoverable">
+						<img src="img/Fachkräftemangel_Ingenieure-.jpg" alt="" class="w-all">
+					</div>
+					<div class="services_title absolute w-all">
+						Azubis
+					</div>
+				</div>
 			</div>
 		</div>
 		

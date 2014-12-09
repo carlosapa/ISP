@@ -394,6 +394,14 @@ ul li > ul > li > ul {
 	margin: 0 10px;
 }
 
+.menu-inline .menu-inline_separation_a {
+	margin-right: 1em;
+}
+
+.menu-inline .menu-inline_separation_b {
+	margin-left: 1em;
+}
+
 .menu-inline li:first-of-type {
 	margin: 0 10px 0 0;
 }
