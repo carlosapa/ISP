@@ -35,8 +35,12 @@ h1, h2 {
 	background: #eee;
 }
 
-.navigation_items {
+.head_logo {
+	margin-bottom: 13px;
+}
 
+.navigation_items {
+	margin-top: 40px;
 }
 
 .navigation_items .navigation_item {
@@ -46,6 +50,28 @@ h1, h2 {
 
 .navigation_items .navigation_item.navigation_menu {
 	margin: 0 5px;
+}
+
+.navigation_items .navigation_item.navigation_menu a {
+	color: #777;
+	padding-bottom: 4px;
+	border-bottom: 0px solid rgba(34, 151, 194, .25);
+
+	-webkit-transition: border-bottom 150ms ease;
+	-moz-transition: border-bottom 150ms ease;
+	-ms-transition: border-bottom 150ms ease;
+	-o-transition: border-bottom 150ms ease;
+	transition: border-bottom 150ms ease;
+}
+
+.navigation_items .navigation_item.navigation_menu:hover a {
+	border-bottom: 3px solid rgba(34, 151, 194, .25);
+
+	-webkit-transition: border-bottom 150ms ease;
+	-moz-transition: border-bottom 150ms ease;
+	-ms-transition: border-bottom 150ms ease;
+	-o-transition: border-bottom 150ms ease;
+	transition: border-bottom 150ms ease;
 }
 
 .navigation_items .navigation_item.navigation_flags {

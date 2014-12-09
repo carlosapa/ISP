@@ -32,22 +32,22 @@
 							<span>Karriere</span>
 						</a>
 						</li>
-					<li class="navigation_item navigation_menu menu-inline_separation_a">
+					<li class="navigation_item navigation_menu menu-inline_separation_right">
 						<a href="#" target="_blank" class="clean_link">
 							<span>Kontakt</span>
 						</a>
 						</li>
-					<li class="navigation_item navigation_flags menu-inline_separation_b">
+					<li class="navigation_item navigation_flags hoverable">
 						<a href="#" target="_blank">
 							<img src="img/lang-menu-de.png" alt="navigation_flag" title="DE">
 						</a>
 					</li>
-					<li class="navigation_item navigation_flags">
+					<li class="navigation_item navigation_flags hoverable">
 						<a href="#" target="_blank">
 							<img src="img/lang-menu-es.png" alt="navigation_flag_ES" title="ES">
 						</a>
 					</li>
-					<li class="navigation_item navigation_flags">
+					<li class="navigation_item navigation_flags hoverable">
 						<a href="#" target="_blank">
 							<img src="img/lang-menu-en.png" alt="navigation_flag_EN" title="EN">
 						</a>
