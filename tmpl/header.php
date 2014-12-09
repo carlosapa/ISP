@@ -10,8 +10,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+        <link rel="stylesheet" href="libs/AnythingSlider-master/css/anythingslider.css">
+        <link rel="stylesheet" href="libs/AnythingSlider-master/css/animate.css">
+        <link rel="stylesheet" href="libs/AnythingSlider-master/css/theme-construction.css">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/anythingSlider.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/maps_controller.js"></script>
