@@ -13,42 +13,42 @@
 			<div class="navigation__holder clearfix ">
 				<ul class="navigation_items menu-inline clearfix talign_right">
 					<li class="navigation_item navigation_menu">
-						<a href="#" target="_blank" class="clean_link">
+						<a href="tmpl/unternehmen.php" target="_blank" class="clean_link">
 							<span>Unternehmen</span>
 						</a>
 						</li>
 					<li class="navigation_item navigation_menu">
-						<a href="#" target="_blank" class="clean_link">
+						<a href="#" target="_self" class="clean_link">
 							<span>Dienstleistungen</span>
 						</a>
 						</li>
 					<li class="navigation_item navigation_menu">
-						<a href="#" target="_blank" class="clean_link">
+						<a href="#" target="_self" class="clean_link">
 							<span>Projekte</span>
 						</a>
 						</li>
 					<li class="navigation_item navigation_menu">
-						<a href="#" target="_blank" class="clean_link">
+						<a href="#" target="_self" class="clean_link">
 							<span>Karriere</span>
 						</a>
 						</li>
 					<li class="navigation_item navigation_menu menu-inline_separation_right">
-						<a href="#" target="_blank" class="clean_link">
+						<a href="#" target="_self" class="clean_link">
 							<span>Kontakt</span>
 						</a>
 						</li>
 					<li class="navigation_item navigation_flags hoverable">
-						<a href="#" target="_blank">
+						<a href="#" target="_self">
 							<img src="img/lang-menu-de.png" alt="navigation_flag" title="DE">
 						</a>
 					</li>
 					<li class="navigation_item navigation_flags hoverable">
-						<a href="#" target="_blank">
+						<a href="#" target="_self">
 							<img src="img/lang-menu-en.png" alt="navigation_flag_EN" title="EN">
 						</a>
 					</li>
 					<li class="navigation_item navigation_flags hoverable">
-						<a href="#" target="_blank">
+						<a href="#" target="_self">
 							<img src="img/lang-menu-es.png" alt="navigation_flag_ES" title="ES">
 						</a>
 					</li>

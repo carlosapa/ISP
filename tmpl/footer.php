@@ -3,7 +3,7 @@
 	 			<div class="footer_menu w-60 to-left">
 	 				<ul class="footer_items menu-inline navigation_items">
 	 					<li class="footer_item navigation_item">
-	 						<a href="#" class="clean_link">Unternehmen</a>
+	 						<a href="/tmpl/unternehmen.php" class="clean_link">Unternehmen</a>
 	 					</li>
 	 					<li class="footer_item navigation_item">
 	 						<a href="#" class="clean_link">Karriere</a>
