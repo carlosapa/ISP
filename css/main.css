@@ -320,5 +320,46 @@ li.content_list__items::before {
 	left: 0px;
 }
 
+.footer {
+	background: #F5F5F5;
+	box-shadow: 0 2px 7px rgba(0,0,0,0.1) inset;
+	padding: 20px 0;
+}
+
+.footer .navigation_items .navigation_item {
+	background: none;
+	padding: 0;
+}
+
+.footer .navigation_items .navigation_item {
+	margin: 0 5px;
+}
+
+.footer .navigation_items .navigation_item a {
+	color: #777;
+	padding-bottom: 4px;
+	border-bottom: 0px solid rgba(34, 151, 194, .25);
+
+	-webkit-transition: border-bottom 150ms ease;
+	-moz-transition: border-bottom 150ms ease;
+	-ms-transition: border-bottom 150ms ease;
+	-o-transition: border-bottom 150ms ease;
+	transition: border-bottom 150ms ease;
+}
+
+.footer .navigation_items .navigation_item:hover a {
+	border-bottom: 3px solid rgba(34, 151, 194, .25);
+
+	-webkit-transition: border-bottom 150ms ease;
+	-moz-transition: border-bottom 150ms ease;
+	-ms-transition: border-bottom 150ms ease;
+	-o-transition: border-bottom 150ms ease;
+	transition: border-bottom 150ms ease;
+}
+
+.footer_logo {
+	
+}
+
 
 

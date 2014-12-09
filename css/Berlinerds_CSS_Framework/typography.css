@@ -385,6 +385,7 @@ ul li > ul > li > ul {
 
 .menu-inline {
 	margin: 1em 0;
+	padding: 0px;
 }
 
 .menu-inline li {
