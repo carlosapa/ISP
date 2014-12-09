@@ -86,29 +86,52 @@ var init_slider = (function (win, doc, $) {
 
 /*=== init colorbox ===*/
 
-var init_colorbox = (function () {
+var init_colorbox = (function (w, d, $) {
 
 	var project_box = $('.proyect_pics');
 	var project_length = project_box.length;
 
 	for (var i = 1; i < project_length; i++) {
 
-		$('.group' + i).colorbox({
+		$('.group' + i + ', .iframe.group' + i).colorbox({
 			rel:'group' + i, 
-			transition:"elastic",
+			transition:"none",
 			width:"70%", 
-			height:"70%"
-		});
-
-		// youtube and vimeo
-		$('.iframe.group' + i).colorbox({
-			rel:'group' + i, 
-			transition:"elastic",
+			height:"70%", 
 			iframe:true,
-			width:"70%", 
-			height:"70%"
+			onOpen: function (e) {
+				$(colorbox).addClass('box_in');
+				$(colorbox).removeClass('box_out');
+				$(colorbox).on('webkitAnimationEnd oanimationend msAnimationEnd animationend', function (e) {
+					$(colorbox).removeClass('box_in');
+				});
+
+				$(cboxOverlay).addClass('fade_in');
+				$(cboxOverlay).removeClass('fade_out');
+				$(cboxOverlay).on('webkitAnimationEnd oanimationend msAnimationEnd animationend', function (e) {
+					$(colorbox).removeClass('fade_in');
+				});
+			}, 
+			onCleanup: function (e) {
+				$(colorbox).addClass('box_out');
+				$(colorbox).removeClass('box_in');
+				$(colorbox).on('webkitAnimationEnd oanimationend msAnimationEnd animationend', function (e) {
+					$(colorbox).removeClass('box_out');
+				});
+
+				$(cboxOverlay).addClass('fade_out');
+				$(cboxOverlay).removeClass('fade_in');
+				$(cboxOverlay).on('webkitAnimationEnd oanimationend msAnimationEnd animationend', function (e) {
+					$(colorbox).removeClass('fade_out');
+				});
+			},
 		});
+	
 	}
+
+	$(cboxOverlay).on('click', function () {
+		return false;
+	});
 
 }(window, document, jQuery));
 
