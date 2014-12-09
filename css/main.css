@@ -176,13 +176,71 @@ h1, h2 {
 }
 
 .slider_navi {
-	border: 1px solid red;
 	width: 20%;
 	height: 30px;
 	bottom: 30px;
 	z-index: 4;
 	left: 113px;
 	position: relative;
+	text-align: center;
+}
+
+.slider_navi .slider_navi_item {
+	border: 1px solid rgb(182, 182, 182);
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	margin-top: 6px;
+	cursor: pointer;
+	padding: 2px;
+
+	-webkit-box-sizing: initial;
+	-moz-box-sizing: initial;
+	-ms-box-sizing: initial;
+	-o-box-sizing: initial;
+	box-sizing: initial;
+
+	-webkit-transition: border 150ms ease;
+	-moz-transition: border 150ms ease;
+	-ms-transition: border 150ms ease;
+	-o-transition: border 150ms ease;
+	transition: border 150ms ease;
+}
+
+.slider_navi .slider_navi_item.active {
+	border: 1px solid rgb(152, 152, 152);
+
+	-webkit-transition: border 150ms ease;
+	-moz-transition: border 150ms ease;
+	-ms-transition: border 150ms ease;
+	-o-transition: border 150ms ease;
+	transition: border 150ms ease;
+}
+
+.slider_navi .slider_navi_item span {
+	width: 100%;
+	display: block;
+	height: 100%;
+	border-radius: 50%;
+	background: #C7C7C7;
+	opacity: 0;
+
+	-webkit-transition: opacity 150ms ease 150ms;
+	-moz-transition: opacity 150ms ease 150ms;
+	-ms-transition: opacity 150ms ease 150ms;
+	-o-transition: opacity 150ms ease 150ms;
+	transition: opacity 150ms ease 150ms;
+}
+
+.slider_navi .slider_navi_item.active span {
+	opacity: 1;
+
+	-webkit-transition: opacity 150ms ease 150ms;
+	-moz-transition: opacity 150ms ease 150ms;
+	-ms-transition: opacity 150ms ease 150ms;
+	-o-transition: opacity 150ms ease 150ms;
+	transition: opacity 150ms ease 150ms;
 }
 
 /* content */

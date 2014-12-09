@@ -8,7 +8,7 @@
 			<ul class="slider_items">
 				<li class="slider_item relative">
 					<div class="slider_item__block absolute w-40 h-all">
-						<h1>Willkommen bei ISP</h1>
+						<h1>Willkommen bei ISP_1</h1>
 						<hr>
 						<p>
 							Ihrem Partner für Planung, Statik und Konstruktion von Stahlbauten und Industrieanlagen.
@@ -23,7 +23,7 @@
 				</li>
 				<li class="slider_item relative">
 					<div class="slider_item__block absolute w-40 h-all">
-						<h1>Willkommen bei ISP</h1>
+						<h1>Willkommen bei ISP_2</h1>
 						<hr>
 						<p>
 							Ihrem Partner für Planung, Statik und Konstruktion von Stahlbauten und Industrieanlagen.
@@ -38,7 +38,7 @@
 				</li>
 				<li class="slider_item relative">
 					<div class="slider_item__block absolute w-40 h-all">
-						<h1>Willkommen bei ISP</h1>
+						<h1>Willkommen bei ISP_3</h1>
 						<hr>
 						<p>
 							Ihrem Partner für Planung, Statik und Konstruktion von Stahlbauten und Industrieanlagen.
@@ -54,8 +54,9 @@
 			</ul>
 
 			<div class="slider_navi">
-
-				
+				<div class="slider_navi_item active" data-slider-panel="1"><span></span></div>
+				<div class="slider_navi_item" data-slider-panel="2"><span></span></div>
+				<div class="slider_navi_item" data-slider-panel="3"><span></span></div>
 			</div>
 		</div>
 		
