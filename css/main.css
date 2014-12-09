@@ -264,7 +264,7 @@ li.content_list__items::before {
 .footer_map__holder .slider_item__block {
 	z-index: 3;
 	background: rgba(255, 255, 255, 0.96);
-	margin: 0 0 0 1%;
+	margin: 0 0 0 0;
 	box-shadow: 3px 0 10px rgba(0, 0, 0, 0.15), 0 0px 9px rgba(0, 0, 0, .05) inset;
 	padding: 2em;
 }

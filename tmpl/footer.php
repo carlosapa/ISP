@@ -1,4 +1,33 @@
- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+ 		<div class="footer">
+ 			<div class="footer_holder">
+	 			<div class="footer_menu">
+	 				<ul class="footer_items">
+	 					<li class="footer_item">
+	 						<a href="#" class="clean_link">Unternehmen</a>
+	 					</li>
+	 					<li class="footer_item">
+	 						<a href="#" class="clean_link">Karriere</a>
+	 					</li>
+	 					<li class="footer_item">
+	 						<a href="#" class="clean_link">Kontakt</a>
+	 					</li>
+	 					<li class="footer_item">
+	 						<a href="#" class="clean_link">Impressum</a>
+	 					</li>
+	 				</ul>
+	 			</div>
+ 				<div class="footer_logo div footer_logo__holder"> 
+ 					<img src="" alt="">
+ 				</div>
+ 			</div>
+
+ 		</div>
+
+
+
+
+
+ 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
         <script src="js/plugins.js"></script>
