@@ -44,12 +44,12 @@
 					</li>
 					<li class="navigation_item navigation_flags hoverable">
 						<a href="#" target="_blank">
-							<img src="img/lang-menu-es.png" alt="navigation_flag_ES" title="ES">
+							<img src="img/lang-menu-en.png" alt="navigation_flag_EN" title="EN">
 						</a>
 					</li>
 					<li class="navigation_item navigation_flags hoverable">
 						<a href="#" target="_blank">
-							<img src="img/lang-menu-en.png" alt="navigation_flag_EN" title="EN">
+							<img src="img/lang-menu-es.png" alt="navigation_flag_ES" title="ES">
 						</a>
 					</li>
 				</ul>
