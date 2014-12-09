@@ -1,29 +1,27 @@
- 		<div class="footer">
- 			<div class="footer_holder">
-	 			<div class="footer_menu">
-	 				<ul class="footer_items">
-	 					<li class="footer_item">
+ 		<div class="footer w-all">
+ 			<div class="footer_holder w-1080 div-center clearfix">
+	 			<div class="footer_menu w-60 to-left">
+	 				<ul class="footer_items menu-inline navigation_items">
+	 					<li class="footer_item navigation_item">
 	 						<a href="#" class="clean_link">Unternehmen</a>
 	 					</li>
-	 					<li class="footer_item">
+	 					<li class="footer_item navigation_item">
 	 						<a href="#" class="clean_link">Karriere</a>
 	 					</li>
-	 					<li class="footer_item">
+	 					<li class="footer_item navigation_item">
 	 						<a href="#" class="clean_link">Kontakt</a>
 	 					</li>
-	 					<li class="footer_item">
+	 					<li class="footer_item navigation_item">
 	 						<a href="#" class="clean_link">Impressum</a>
 	 					</li>
 	 				</ul>
 	 			</div>
- 				<div class="footer_logo div footer_logo__holder"> 
- 					<img src="" alt="">
+ 				<div class="footer_logo div footer_logo__holder w-40 to-right"> 
+ 					<img src="img/ISP-Logo neu positiv blau.png" alt="logo" title="logo" class="w-25">
  				</div>
  			</div>
 
  		</div>
-
-
 
 
 
