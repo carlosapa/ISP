@@ -21,7 +21,7 @@
 					</div>
 					<img src="img/rad_ph02.jpg" alt="rad_ph02" class="w-all" title="rad_ph02">
 				</li>
-				<li class="slider_item hidden">
+				<li class="slider_item relative">
 					<div class="slider_item__block absolute w-40 h-all">
 						<h1>Willkommen bei ISP</h1>
 						<hr>
@@ -36,7 +36,7 @@
 					</div>
 					<img src="img/rad_ph02.jpg" alt="rad_ph02" class="w-all" title="rad_ph02">
 				</li>
-				<li class="slider_item hidden">
+				<li class="slider_item relative">
 					<div class="slider_item__block absolute w-40 h-all">
 						<h1>Willkommen bei ISP</h1>
 						<hr>
@@ -52,10 +52,17 @@
 					<img src="img/rad_ph02.jpg" alt="rad_ph02" class="w-all" title="rad_ph02">
 				</li>
 			</ul>
+
+			<div class="slider_navi">
+
+				
+			</div>
 		</div>
 		
 		<div class="slider_next to-left w-10 h-all absolute talign_right">
 			<img src="img/arrows_right.png" title="navigate to right" alt="to_right" class="clickable"/>
 		</div>
+
+
 	</div>
 </div>

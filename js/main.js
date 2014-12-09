@@ -36,7 +36,9 @@ var init_slider = (function (win, doc, $) {
 		resizeContents: true,
 		buildArrows: false,
 		buildNavigation: false,
- 		buildStartStop: false
+ 		buildStartStop: false, 
+ 		infiniteSlides: true,
+ 		hashTags: false,
 	});
 
 	// build custom navigation
