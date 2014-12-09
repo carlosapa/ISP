@@ -145,8 +145,19 @@
 		</div>
 	</div> <!-- end of content__section services -->
 
-	<div class="content__section medium-space-before medium-space-after clearfix">
+	<div class="content__section medium-space-before big-space-after clearfix">
 		<h2 class="section_title">Stellenangebote</h2>
+		<div class="jobs grid-3 clearfix">
+			<div class="job subgrid-3 clearfix">
+				Karriere
+			</div>
+			<div class="job subgrid-3 clearfix">
+				Praktika
+			</div>
+			<div class="job subgrid-3 clearfix">
+				Azubis
+			</div>
+		</div>
 		
 	</div> <!-- end of content__section services -->
 
