@@ -5,7 +5,7 @@
 		<div class="grid-6 clearfix">
 			<div class="service subgrid-6 clearfix">
 				<div class="services relative">
-					<div class="services_image w-all h-all">
+					<div class="services_image w-all h-all hoverable">
 						<img src="img/foto.jpg" alt="" class="w-all">
 					</div>
 					<div class="services_title absolute w-all">
@@ -15,7 +15,7 @@
 			</div>
 			<div class="service subgrid-6 clearfix">
 				<div class="services relative">
-					<div class="services_image w-all h-all">
+					<div class="services_image w-all h-all hoverable">
 						<img src="img/foto-1.jpg" alt="" class="w-all">
 					</div>
 					<div class="services_title absolute w-all">
@@ -25,7 +25,7 @@
 			</div>
 			<div class="service subgrid-6 clearfix">
 				<div class="services relative">
-					<div class="services_image w-all h-all">
+					<div class="services_image w-all h-all hoverable">
 						<img src="img/rad_ph02.jpg" alt="" class="w-all">
 					</div>
 					<div class="services_title absolute w-all">
@@ -35,7 +35,7 @@
 			</div>
 			<div class="service subgrid-6 clearfix">
 				<div class="services relative">
-					<div class="services_image w-all h-all">
+					<div class="services_image w-all h-all hoverable">
 						<img src="img/dachtraeger3.jpg" alt="" class="w-all">
 					</div>
 					<div class="services_title absolute w-all">
@@ -45,7 +45,7 @@
 			</div>
 			<div class="service subgrid-6 clearfix">
 				<div class="services relative">
-					<div class="services_image w-all h-all">
+					<div class="services_image w-all h-all hoverable">
 						<img src="img/dachtraeger2.jpg" alt="" class="w-all">
 					</div>
 					<div class="services_title absolute w-all">
@@ -55,7 +55,7 @@
 			</div>
 			<div class="service subgrid-6 clearfix">
 				<div class="services relative">
-					<div class="services_image w-all h-all">
+					<div class="services_image w-all h-all hoverable">
 						<img src="img/dachkonstruktion.jpg" alt="" class="w-all">
 					</div>
 					<div class="services_title absolute w-all">
@@ -150,7 +150,7 @@
 		<div class="jobs grid-3 clearfix">
 			<div class="job subgrid-3 clearfix">
 				<div class="services relative">
-					<div class="services_image w-all h-all hoverable">
+					<div class="services_image w-all h-all hoverable hoverable">
 						<img src="img/ingenieur-oiq-equivalence-800x533.jpg" alt="" class="w-all">
 					</div>
 					<div class="services_title absolute w-all">
@@ -160,7 +160,7 @@
 			</div>
 			<div class="job subgrid-3 clearfix">
 				<div class="services relative">
-					<div class="services_image w-all h-all hoverable">
+					<div class="services_image w-all h-all hoverable hoverable">
 						<img src="img/duale-akad-ausbildung.jpg" alt="" class="w-all">
 					</div>
 					<div class="services_title absolute w-all">
@@ -170,7 +170,7 @@
 			</div>
 			<div class="job subgrid-3 clearfix">
 				<div class="services relative">
-					<div class="services_image w-all h-all hoverable">
+					<div class="services_image w-all h-all hoverable hoverable">
 						<img src="img/Fachkräftemangel_Ingenieure-.jpg" alt="" class="w-all">
 					</div>
 					<div class="services_title absolute w-all">

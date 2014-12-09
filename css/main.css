@@ -18,7 +18,7 @@
 
 /* general classes */
 
-h1, h2 {
+h1, h2, h3 {
 	font-family: 'latothin';
 	letter-spacing: -1.5px;
 	color: rgb(34, 151, 194);
@@ -377,7 +377,9 @@ li.content_list__items::before {
 	background: rgba(255, 255, 255, 0.96);
 	margin: 0 0 0 0;
 	box-shadow: 3px 0 10px rgba(0, 0, 0, 0.15), 0 0px 9px rgba(0, 0, 0, .05) inset;
-	padding: 2em;
+	padding: 1.6em 2.4em;
+	height: 97%;
+	margin-top: 0.8%;
 }
 
 .footer_map__holder .slider_item__block hr {
