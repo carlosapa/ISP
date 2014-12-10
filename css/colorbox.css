@@ -22,7 +22,7 @@
 
     /*bordes raros*/
     #cboxTopLeft{width:14px; height:14px; background:url(images/controls.png) no-repeat 0 0; border: 1px solid red; display: none}
-    #cboxTopCenter{height:14px; background:url(images/border.png) repeat-x top left;display: none}
+    #cboxTopCenter{height:14px; background:url(images/border.png) repeat-x top left;}
     #cboxTopRight{width:14px; height:14px; background:url(images/controls.png) no-repeat -36px 0; display: none}
     #cboxBottomLeft{width:14px; height:43px; background:url(images/controls.png) no-repeat 0 -32px; display: none}
     #cboxBottomCenter{height:43px; background:url(images/border.png) repeat-x bottom left; display: none}
@@ -30,7 +30,7 @@
     #cboxMiddleLeft{width:14px; background:url(images/controls.png) repeat-y -175px 0; display: none}
     #cboxMiddleRight{width:14px; background:url(images/controls.png) repeat-y -211px 0; display: none}
     
-    #cboxContent{background:rgba(0,0,0,0.7); overflow:visible;border-radius: 3px 3px 0 0; position: relative}
+    #cboxContent{background:#000; overflow:visible;border-radius: 3px 3px 0 0; position: relative}
         
         .cboxIframe{background:#000; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
         #cboxError{padding:50px; border:1px solid #ccc;position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
@@ -50,8 +50,7 @@
         }
         
         /* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
-        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active,
-        #cboxPrevious:focus, #cboxNext:focus, #cboxSlideshow:focus, #cboxClose:focus {outline:0;}
+        #cboxPrevious:active, #cboxNext:active, #cboxSlideshow:active, #cboxClose:active {outline:0;}
 
         #cboxPrevious{
         	left:0px; 

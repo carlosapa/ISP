@@ -30,7 +30,7 @@
 						</a>
 						</li>
 					<li class="navigation_item navigation_menu">
-						<a href="#" target="_self" class="clean_link">
+						<a href="karriere.php" target="_self" class="clean_link">
 							<span>Karriere</span>
 						</a>
 						</li>

@@ -4,21 +4,15 @@
 <?php 
 
 $titles = array(
-    'Tragwerks-Plannung', 
-    'Statik', 
-    'Konstruktion', 
-    'Machbarkeitsstudien', 
-    'Bauen im Bestand', 
-    'Objekt Plannung'
+    'Karriere', 
+    'Praktika', 
+    'Auszubildende', 
 );
 
 $srcs = array(
-    'img/foto.jpg', 
-    'img/foto-1.jpg', 
-    'img/rad_ph02.jpg', 
-    'img/dachtraeger3.jpg', 
-    'img/dachtraeger2.jpg', 
-    'img/dachkonstruktion.jpg'
+    'img/ingenieur-oiq-equivalence-800x533.jpg', 
+    'img/duale-akad-ausbildung.jpg', 
+    'img/Fachkraftemangel_Ingenieure-.jpg', 
 );
 
 ?>
@@ -27,12 +21,12 @@ $srcs = array(
 	<div class="section__holder clearfix w-1080 div-center">
 		
 		<div class="section_title">
-			<h1>Dienstleistungen</h1>
+			<h1>Karriere</h1>
 		</div>
 		
 		<div class="section_body w-all">
 
-			<?php for ($i = 0; $i < 6; $i++) : ?>
+			<?php for ($i = 0; $i < 3; $i++) : ?>
 			<div class="content__section medium-space-before medium-space-after clearfix">
 				<h2 class="section_title"><?php echo $titles[$i]; ?></h2>
 				<div class="splited_content clearfix">

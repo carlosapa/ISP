@@ -6,13 +6,13 @@
 	 						<a href="unternehmen.php" class="clean_link">Unternehmen</a>
 	 					</li>
 	 					<li class="footer_item navigation_item">
-	 						<a href="#" class="clean_link">Karriere</a>
+	 						<a href="karriere.php" class="clean_link">Karriere</a>
 	 					</li>
 	 					<li class="footer_item navigation_item">
 	 						<a href="kontakt.php" class="clean_link">Kontakt</a>
 	 					</li>
 	 					<li class="footer_item navigation_item">
-	 						<a href="#" class="clean_link">Impressum</a>
+	 						<a href="impressum.php" class="clean_link">Impressum</a>
 	 					</li>
 	 				</ul>
 	 			</div>
