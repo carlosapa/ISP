@@ -84,21 +84,23 @@ var init_slider = (function (win, doc, $) {
 }(window, document, jQuery));
 
 
-/*=== init colorbox ===*/
+/*=== init colorbox in projects page ===*/
 
 var init_colorbox = (function (w, d, $) {
 
 	var project_box = $('.proyect_pics');
 	var project_length = project_box.length;
 
-	for (var i = 1; i < project_length; i++) {
+	for (var i = 1; i < project_length + 1; i++) {
 
 		$('.group' + i + ', .iframe.group' + i).colorbox({
 			rel:'group' + i, 
 			transition:"none",
 			width:"70%", 
 			height:"70%", 
-			iframe:true,
+			scrolling: false,
+			fixed: true,
+			reposition: false,
 			onOpen: function (e) {
 				$(colorbox).addClass('box_in');
 				$(colorbox).removeClass('box_out');
@@ -125,6 +127,13 @@ var init_colorbox = (function (w, d, $) {
 					$(colorbox).removeClass('fade_out');
 				});
 			},
+			onLoad: function () {
+				console.log(this);
+			}
+		});
+
+		$('.iframe.group' + i).colorbox({
+			iframe: true
 		});
 	
 	}

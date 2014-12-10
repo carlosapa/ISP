@@ -13,11 +13,10 @@
         <link rel="stylesheet" href="libs/AnythingSlider-master/css/anythingslider.css">
         <link rel="stylesheet" href="libs/AnythingSlider-master/css/animate.css">
         <link rel="stylesheet" href="libs/AnythingSlider-master/css/theme-construction.css">
-        <link rel="stylesheet" href="libs/colorbox-master/example5/colorbox.css">
+        <link rel="stylesheet" href="libs/colorbox-master/berlinerds_theme/colorbox.css">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/anythingSlider.css">
-        <link rel="stylesheet" href="css/colorbox.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/maps_controller.js"></script>
