@@ -10,15 +10,20 @@
 		
 		<div class="section_body w-all">
 
+			<?php for ($i = 0; $i < 6; $i++) : ?>
 			<div class="content__section medium-space-before medium-space-after clearfix">
-				<h2 class="section_title">Wir über uns</h2>
+				<h2 class="section_title">Konstruktion</h2>
 				<div class="splited_content clearfix">
 					
-					<div class="splited_content__item w-40 to-left bleed-right">
-
+					<div class="splited_content__item w-25 to-left bleed-right">
+						<div class="services relative">
+							<div class="services_image w-all h-all hoverable">
+								<img src="img/rad_ph02.jpg" alt="" class="w-all">
+							</div>
+						</div>
 					</div>
 
-					<div class="splited_content__item w-60 to-right bleed-left bg_grey">
+					<div class="splited_content__item w-75 to-right bleed-left bg_grey">
 						<ul class="content_list bleed-inside">
 							<li class="content_list__items">ISP ist 27 Jahre im Segment Stahlbauplanung tätig</li>
 							<li class="content_list__items">20 qualifizierte Mitarbeiter und Mitarbeiterinnen</li>
@@ -31,7 +36,9 @@
 						</ul>
 					</div>
 				</div>
-			</div>
+			</div><!-- end of service -->
+			<?php endfor; ?>
+
 		</div>
 	</div> <!-- end of content__section services -->
 
