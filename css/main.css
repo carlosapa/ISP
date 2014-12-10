@@ -555,13 +555,41 @@ li.content_list__items::before {
 	RESPONSIVE CLASSES
 ===========================*/
 
-
 @media screen and (max-width: 68.75em) { /* 1100px */
+	.w-fixed { width: 960px !important; }
+	.w-1080 { width: 960px !important; }
 
+	.head_logo {
+		padding-left: 12px;
+	}
+}
+
+@media screen and (max-width: 60em) { /* 960px */
+	.w-fixed { width: 810px !important; }
+	.w-1080 { width: 810px !important; }
 }
 
 @media screen and (max-width: 56.25em) { /* 900px */
+	.w-fixed { width: 80% !important; }
+	.w-1080 { width: 80% !important; }
 
+	.head_logo {
+		float: none;
+	}
+
+	.head_logo {
+		float: none;
+		padding-left: 2px;
+	}
+
+	.head_navigation {
+		float: none;
+		width: 100%;
+	}
+
+	.head_navigation ul {
+		text-align: left;
+	}
 }
 
 @media screen and (max-width: 48em) { /* 768px */
