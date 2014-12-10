@@ -18,7 +18,7 @@ $srcs = array(
 ?>
 
 <div class="section clearfix w-all line-top big-space-after">
-	<div class="section__holder clearfix w-1080 div-center">
+	<div class="section__holder clearfix w-1080 w-fixed div-center">
 		
 		<div class="section_title">
 			<h1>Karriere</h1>

@@ -1,4 +1,4 @@
-<div class="content w-1080 div-center clearfix">
+<div class="content w-1080 w-fixed div-center clearfix">
 	
 	<div class="content__section medium-space-before medium-space-after clearfix">
 		<h2 class="section_title">Dienstleistungen</h2>

@@ -1,5 +1,5 @@
  		<div class="footer w-all">
- 			<div class="footer_holder w-1080 div-center clearfix">
+ 			<div class="footer_holder w-1080 w-fixed div-center clearfix">
 	 			<div class="footer_menu w-60 to-left">
 	 				<ul class="footer_items menu-inline navigation_items">
 	 					<li class="footer_item navigation_item">
