@@ -24,7 +24,8 @@ var set_heights = (function (win, doc, $) {
 	$(win).on('resize', function () {
 		getter();
 		setter();		
-	})
+	});
+	
 }(window, document, jQuery));
 
 /*=== init anythingslider for the jumbotron slider ===*/

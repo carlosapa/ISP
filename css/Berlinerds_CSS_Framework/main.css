@@ -29,24 +29,6 @@
 
 /*------------ CONCRETE CLASSES ------------*/
 
-
-.clear {
-	clear: both;
-}
-
-.grid-background {
-	background-color: #ddd;
-	border: 1px solid #aaa;
-}
-
-.grid-prueba {
-	height: 130px;
-	border: 1px solid #aaa;
-	padding: 3px;
-}
-
-
-
 /*------------ HEADER ------------*/
 
 /*------------ INDEX ------------*/
@@ -59,30 +41,27 @@
 
 /*------------ MEDIA QUERIES ------------*/
 
-/* iPads (portrait and landscape) ----------- */
-@media (max-width : 1223px)    {
+@media screen and (max-width: 68.75em) { /* 1100px */
 
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media (max-width : 767px)    {
+@media screen and (max-width: 56.25em) { /* 900px */
 
 }
 
-/* Smartphones (portrait) ----------- */
-@media (max-width : 479px)    {
+@media screen and (max-width: 48em) { /* 768px */
 
 }
 
-
-/* Large screens ----------- IF YOU HAVE VERY LARGE STUFF*/
-@media (min-width : 1824px) {
+@media screen and (max-width: 37.5em) { /* 600px */
 
 }
 
-/* Desktops and laptops ----------- THE NORMAL ONE */
-@media (max-width : 1823px)    {
+@media screen and (max-width: 30em) { /* 480px */
 
 }
 
+@media screen and (max-width: 20em) { /* 320px */
+
+}
 

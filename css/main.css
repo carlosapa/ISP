@@ -1,6 +1,12 @@
+/*====================
+	FRAMEWORKS
+====================*/
+
 @import url('Berlinerds_CSS_Framework/main.css');
 
-/* font faces*/
+/*====================
+	FONTFACES
+====================*/
 
 
 @font-face {
@@ -16,7 +22,9 @@
 
 }
 
-/* general classes */
+/*====================
+	GENERAL CLASSES
+====================*/
 
 h1, h2, h3 {
 	font-family: 'latothin';
@@ -28,7 +36,11 @@ h1, h2, h3 {
 	background: #F5F5F5;
 }
 
-/* head */
+/*====================
+	CONCRETE CLASSES
+====================*/
+
+/* header */
 
 .head_line {
 	height: 5px; 
@@ -355,7 +367,7 @@ li.content_list__items::before {
 
 
 
-/* services */
+/* services and karriere */
 
 .section .services_image {
 	position: absolute;
@@ -457,7 +469,7 @@ li.content_list__items::before {
 	transition: opacity 400ms ease;
 }
 
-/* footer map */
+/* index content -> footer map */
 
 .contact_img_holder {
 	height: 160px;
@@ -539,7 +551,41 @@ li.content_list__items::before {
 	text-align: right;
 }
 
-/* animation classes */
+/*===========================
+	RESPONSIVE CLASSES
+===========================*/
+
+
+@media screen and (max-width: 68.75em) { /* 1100px */
+
+}
+
+@media screen and (max-width: 56.25em) { /* 900px */
+
+}
+
+@media screen and (max-width: 48em) { /* 768px */
+
+}
+
+@media screen and (max-width: 37.5em) { /* 600px */
+
+}
+
+@media screen and (max-width: 30em) { /* 480px */
+
+}
+
+@media screen and (max-width: 20em) { /* 320px */
+
+}
+
+
+
+
+/*========================
+	ANIMATION CLASSES
+========================*/
 
 .box_in {
 	-webkit-animation: box_in 400ms ease;
