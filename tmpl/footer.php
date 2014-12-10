@@ -30,6 +30,9 @@
         <script src="libs/AnythingSlider-master/js/jquery.anythingslider.min.js"></script>
         <script src="libs/colorbox-master/jquery.colorbox-min.js"></script>
 
+        <!-- bower:js -->
+		<!-- endbower -->
+
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
