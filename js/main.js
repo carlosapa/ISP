@@ -185,8 +185,8 @@ var smooth_anchors = (function (win, doc, $) {
 			var target = $('a[name="' + hash + '"]');
 			
 			if (target.length) {
-				$(win).on('DOMContentLoaded', function (e) {
-					
+				
+				$(win).on('DOMContentLoaded', function (e) {	
 					window.setTimeout( function () {
 						$('html,body').animate({ scrollTop: target.offset().top - 100 }, 1500, 'easeInOutQuad', null); 
 						return false; 
