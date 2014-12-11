@@ -26,10 +26,11 @@
 	GENERAL CLASSES
 ====================*/
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
 	font-family: 'latothin';
 	letter-spacing: -1.5px;
 	color: rgb(34, 151, 194);
+	line-height: 1em;
 }
 
 .bg_grey {
@@ -123,7 +124,7 @@ h1, h2, h3 {
 }
 
 .slider_item__block h1 {
-	margin-top: 25%;
+	/*margin-top: 25%;*/
 }
 
 .slider_item__block hr {
@@ -329,7 +330,7 @@ h1, h2, h3 {
 
 .content_image {
 	margin-bottom: 0px;
-	position: absolute !important;
+	position: relative !important;
 	bottom: 0px;
 	width: 90%;
 }
@@ -369,7 +370,7 @@ li.content_list__items::before {
 
 /* services and karriere */
 
-.section .services_image {
+.section .splited_content:not(.js_not_equal) .services_image {
 	position: absolute;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
@@ -379,6 +380,50 @@ li.content_list__items::before {
 	transform: translateY(-50%);
 }
 
+.section .splited_content__item.bg_grey {
+	padding-bottom: 1em;
+	overflow: hidden;
+}
+
+.splited_content__item.bg_grey > p, 
+.splited_content__item.bg_grey > h1,
+.splited_content__item.bg_grey > h2,
+.splited_content__item.bg_grey > h3,
+.splited_content__item.bg_grey > h4,
+.splited_content__item.bg_grey > h5,
+.splited_content__item.bg_grey > h6,
+.splited_content__item.bg_grey > span, 
+.splited_content__item.bg_grey > div,
+.splited_content__item.bg_grey > img,
+.splited_content__item.bg_grey > a, 
+.splited_content__item.bg_grey > dl {
+	padding: 0 56px 0 35px;
+}
+
+.splited_content__item.bg_grey > p, 
+.splited_content__item.bg_grey > a, 
+.splited_content__item.bg_grey > span, 
+.splited_content__item.bg_grey > dl { 
+	color: #777;
+}
+
+.splited_content__item.bg_grey > p:last-child, 
+.splited_content__item.bg_grey > li:last-of-type {
+	margin-bottom: 2em;
+}
+
+.splited_content__item.bg_grey dl dd {
+	margin-bottom: 1em;
+}
+
+.splited_content__item.bg_grey dl dd:last-child {
+	margin-bottom: 2em;
+}
+
+.splited_content__item.bg_grey dl dt {
+	color: #666;
+	font-weight: bold;
+}
 
 /* projekte */
 

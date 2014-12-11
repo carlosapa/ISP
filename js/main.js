@@ -2,28 +2,37 @@
 
 var set_heights = (function (win, doc, $) {
 	
-	var items = $('.splited_content__item');
-	var top_height = 0;
-	var getter = function () {
-		items.each(function (i, e) {
+	var parents = $('.splited_content:not(.js_not_equal)');
+	
+	var getter = (function (els) {
+		var top_height = 0;
+		els.each(function (i, e) {
 			var height = $(e).height();
 			top_height = (height > top_height) ? height : top_height;
-		});		
-	};
-	var setter = function () {
-		items.each(function (i, e) {
-			$(e).css('height', top_height + 'px');
+		});	
+		return top_height;
+	});
+
+	var setter = (function (els, h) {
+		els.each(function (i, e) {
+			$(e).css('height', h + 'px');
 		});
-	};
+	});
+
+	var _init = (function () {
+		parents.each(function(i, e) {
+			var items = $(e).find('.splited_content__item');
+			var height = getter(items);
+			setter(items, height);
+		});		
+	})
 
 	//onload
-	getter();
-	setter();
+	_init();
 
 	//onresize
 	$(win).on('resize', function () {
-		getter();
-		setter();		
+		_init();		
 	});
 	
 }(window, document, jQuery));
@@ -105,6 +114,7 @@ var init_colorbox = (function (w, d, $) {
 				fixed: true,
 				reposition: false,
 				onOpen: function (e) {
+					
 					$(colorbox).addClass('box_in');
 					$(colorbox).removeClass('box_out');
 					$(colorbox).on('webkitAnimationEnd oanimationend msAnimationEnd animationend', function (e) {
@@ -118,6 +128,7 @@ var init_colorbox = (function (w, d, $) {
 					});
 				}, 
 				onCleanup: function (e) {
+					
 					$(colorbox).addClass('box_out');
 					$(colorbox).removeClass('box_in');
 					$(colorbox).on('webkitAnimationEnd oanimationend msAnimationEnd animationend', function (e) {
@@ -131,6 +142,7 @@ var init_colorbox = (function (w, d, $) {
 					});
 				},
 				onLoad: function () {
+					
 					console.log(this);
 				}
 			});
@@ -141,16 +153,74 @@ var init_colorbox = (function (w, d, $) {
 		
 		}
 
+		//localisation: 
+
+		jQuery.extend(jQuery.colorbox.settings, {
+			current: "Bild {current} von {total}",
+			previous: "Zurück",
+			next: "Vor",
+			close: "Schließen",
+			xhrError: "Dieser Inhalt konnte nicht geladen werden.",
+			imgError: "Dieses Bild konnte nicht geladen werden.",
+			slideshowStart: "Slideshow starten",
+			slideshowStop: "Slideshow anhalten"
+		});
+
 		$(cboxOverlay).on('click', function () { return false; });
 	}
 
 }(window, document, jQuery));
 
+/*=== Smooth scrolling to anchors ===*/
 
+var smooth_anchors = (function (win, doc, $) {
 
+	var trigger = '.anchor_jump';
+	var anchors = $(trigger);
+	var smooth_scrooll_to = function (hash_tag) {
+	
+		if (location.hash !== '') {
 
+			var hash = location.hash.replace('#_', '');
+			var target = $('a[name="' + hash + '"]');
+			
+			if (target.length) {
+				window.setTimeout( function () {
+					$('html,body').animate({ scrollTop: target.offset().top - 100 }, 1000); 
+					return false; 
+				}, 25);
+			}			
+		}
+	};
 
+	//on load
+	smooth_scrooll_to(location.hash);
 
+	anchors.each(function (ind, elem) {
+
+		$(elem).on('click touchstart', function (ev) {
+			
+			ev.preventDefault();
+			
+			var anchor_hash = $(this).attr('href');
+			var anchor_hash_position = anchor_hash.indexOf('#');
+
+			if (anchor_hash_position < 0) return false;
+
+			var anchor_hash_tag = anchor_hash.substring(anchor_hash_position + 1);
+			var url = anchor_hash.substring(0, anchor_hash_position);
+
+			//is in page or in another page
+
+			if ($('a[name="' + anchor_hash_tag + '"]').length > 0) {
+				smooth_scrooll_to(anchor_hash_tag);
+			} else {
+				win.location.href = url + '#_' + anchor_hash_tag;
+			}
+		})
+	});
+
+}(window, document, jQuery))
 
 
 

@@ -1,6 +1,12 @@
 <?php include_once('tmpl/header.php'); ?>
 <?php include_once('tmpl/head-main.php'); ?>
 
+<?php
+
+$pics = array('ex-1', 'ex-2', 'ex-3', 'ex-4', 'ex-5');
+
+?>
+
 <div class="section clearfix w-all line-top big-space-after">
 	<div class="section__holder clearfix w-1080 w-fixed div-center">
 		
@@ -16,6 +22,8 @@
 				$classes_odd = 'splited_content__item to-right bleed-left';
 				$classes_1 = ($i % 2 == 0) ? $classes_even : $classes_odd;
 				$classes_2 = ($i % 2 == 1) ? $classes_even : $classes_odd;
+
+				shuffle($pics);
 			?>
 
 			<div class="content__section medium-space-after clearfix">
@@ -23,34 +31,36 @@
 				<div class="splited_content clearfix">
 					
 					<div class="<?php echo $classes_1; ?> w-40">
-						<h6 class="micro-space-before micro-space-after">Image Pictures<small> - Click on the pics!</small></h6>
+						
+
 						<div class="proyect_pics grid-3">
 							<div class="proyect_pics__items subgrid-3 overflow-hidden hoverable clickable">
 								<a href="http://www.youtube.com/embed/j6cxZp4ii6c" class="iframe <?php echo 'group' . $i; ?> cboxElement">
-									<img src="img/4.jpg" class="w-all"/>
+									<img src="img/examples/<?php echo $pics[0]?>.jpg" class="w-all"/>
 								</a>
 							</div>
 							<div class="proyect_pics__items subgrid-3 overflow-hidden hoverable clickable">
-								<a href="img/4.jpg" class="<?php echo 'group' . $i; ?> cboxElement">
-									<img src="img/4.jpg" class="w-all"/>
+								<a href="img/examples/<?php echo $pics[1]?>.jpg" class="<?php echo 'group' . $i; ?> cboxElement">
+									<img src="img/examples/<?php echo $pics[1]?>.jpg" class="w-all"/>
 								</a>
 							</div>
 							<div class="proyect_pics__items subgrid-3 overflow-hidden hoverable clickable">
-								<a href="img/4.jpg" class="<?php echo 'group' . $i; ?> cboxElement">
-									<img src="img/4.jpg" class="w-all"/>
+								<a href="img/examples/<?php echo $pics[2]?>.jpg" class="<?php echo 'group' . $i; ?> cboxElement">
+									<img src="img/examples/<?php echo $pics[2]?>.jpg" class="w-all"/>
 								</a>
 							</div>
 							<div class="proyect_pics__items subgrid-3 overflow-hidden hoverable clickable">
-								<a href="img/4.jpg" class="<?php echo 'group' . $i; ?> cboxElement">
-									<img src="img/4.jpg" class="w-all"/>
+								<a href="img/examples/<?php echo $pics[3]?>.jpg" class="<?php echo 'group' . $i; ?> cboxElement">
+									<img src="img/examples/<?php echo $pics[3]?>.jpg" class="w-all"/>
 								</a>
 							</div>
 							<div class="proyect_pics__items subgrid-3 overflow-hidden hoverable clickable">
-								<a href="img/4.jpg" class="<?php echo 'group' . $i; ?> cboxElement">
-									<img src="img/4.jpg" class="w-all"/>
+								<a href="img/examples/<?php echo $pics[4]?>.jpg" class="<?php echo 'group' . $i; ?> cboxElement">
+									<img src="img/examples/<?php echo $pics[4]?>.jpg" class="w-all"/>
 								</a>
 							</div>
 						</div>
+
 					</div>
 
 					<div class="<?php echo $classes_2; ?> bg_grey bleed-inside w-60">

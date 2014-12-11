@@ -19,7 +19,7 @@
 				<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="get">
 					<div class="w-all">
                         <label for="ex_1">Name und Vorname eingeben</label>
-                        <input type="text" name="ex_1" placeholder="Escriba texto..."><br>
+                        <input type="text" name="ex_1" placeholder="Name und Vorname"><br>
                         <span class="form-description">
                             Tiene que insertar un texto
                         </span>
@@ -27,7 +27,7 @@
 
 					<div class="w-all">
                         <label for="ex_1">Emailadresse eingeben</label>
-                        <input type="text" name="ex_1" placeholder="Escriba texto..."><br>
+                        <input type="text" name="ex_1" placeholder="Emailadresse"><br>
                         <span class="form-description">
                             Tiene que insertar un texto
                         </span>
@@ -35,14 +35,14 @@
 
 					<div class="w-all">
                         <label for="ex_1">Nachricht eingeben</label>
-                        <textarea name="ex_1" placeholder="Escriba texto..."></textarea><br>
+                        <textarea name="ex_1" placeholder="Nachricht"></textarea><br>
                         <span class="form-description">
                             Tiene que insertar un texto
                         </span>
                     </div>
 				
 					<div class="w-all clearfix">
-                        <input type="submit" class="w-40 to-right" name="ex_1" placeholder="Escriba texto..."><br>
+                        <input type="submit" class="w-40 to-right" name="ex_1" disabled><br>
                     </div>	
 
 				</form>
