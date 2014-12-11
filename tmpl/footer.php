@@ -27,6 +27,7 @@
 
  		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery.easing.1.3.min.js"></script>
         <script src="libs/AnythingSlider-master/js/jquery.anythingslider.min.js"></script>
         <script src="libs/colorbox-master/jquery.colorbox-min.js"></script>
 
