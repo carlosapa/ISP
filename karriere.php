@@ -25,7 +25,7 @@
 					
 					<div class="splited_content__item w-25 to-left bleed-right">
 						<div class="services  w-all h-all relative">
-							<div class="services_image w-all h-all hoverable">
+							<div class="services_image w-all h-all">
 								<img src="img/foto2008.jpg" alt="" class="w-all">
 							</div>
 						</div>
@@ -47,6 +47,7 @@
 						<dt>Ihre Aufgaben: </dt>
 						<dd>Planung und (Vor-)Berechnung von Stahlkonstruktionen des Industrie- und Anlagenbaus, 
 						Leiter oder Mitglied eines projektbezogenen Teams aus Architekten, Ingenieuren und Konstrukteuren</dd>
+						<dt><a class="to-right clean_link" href="#">mehr erfahren</a></dt>
 
 					</div>
 				</div> <!-- end of offer -->
@@ -55,7 +56,7 @@
 					
 					<div class="splited_content__item w-25 to-left bleed-right">
 						<div class="services  w-all h-all relative">
-							<div class="services_image w-all h-all hoverable">
+							<div class="services_image w-all h-all">
 								<img src="img/foto2008.jpg" alt="" class="w-all">
 							</div>
 						</div>
@@ -77,6 +78,7 @@
 						<dt>Ihre Aufgaben: </dt>
 						<dd>Konstruktionen von Stahlkonstruktionen des Industrie- und Anlagenbaus, 
 						Mitglied eines projektbezogenen Teams von Ingenieuren und Konstrukteuren</dd>
+						<dt><a class="to-right clean_link" href="#">mehr erfahren</a></dt>
 
 					</div>
 				</div> <!-- end of offer -->
@@ -94,7 +96,7 @@
 					
 					<div class="splited_content__item w-25 to-left bleed-right">
 						<div class="services  w-all h-all relative">
-							<div class="services_image w-all h-all hoverable">
+							<div class="services_image w-all h-all">
 								<img src="img/praktikant.jpg" alt="" class="w-all">
 							</div>
 						</div>
@@ -116,6 +118,7 @@
 
 						<dt>Mindestdauer: </dt>
 						<dd>Das Praktikum läuft als Vollzeitpraktikum über mindestens zwei Monate oder studienbegleitend mindestens einen ganzen Arbeitstag pro Woche über einen längeren Zeitraum</dd>
+						<dt><a class="to-right clean_link" href="#">mehr erfahren</a></dt>
 
 					</div>
 				</div> <!-- end of offer -->
@@ -133,7 +136,7 @@
 					
 					<div class="splited_content__item w-25 to-left bleed-right">
 						<div class="services  w-all h-all relative">
-							<div class="services_image w-all h-all hoverable">
+							<div class="services_image w-all h-all">
 								<img src="img/azubi.jpg" alt="" class="w-all">
 							</div>
 						</div>
@@ -152,6 +155,7 @@
 
 						<dt>Ihre Aufgaben: </dt>
 						<dd>Erlernen dieses Berufes unter Anleitung durch Übungen und Mitarbeit in aktuellen Projekten </dd>
+						<dt><a class="to-right clean_link" href="#">mehr erfahren</a></dt>
 
 					</div>
 				</div> <!-- end of offer -->
