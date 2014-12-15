@@ -5,6 +5,7 @@ var set_heights = (function (win, doc, $) {
 	'use strict'; 
 	
 	var parents = $('.splited_content:not(.js_not_equal)');
+	var responsive_limit = 900;
 	
 	var getter = (function (els) {
 		var top_height = 0;
@@ -17,6 +18,7 @@ var set_heights = (function (win, doc, $) {
 
 	var setter = (function (els, h) {
 		els.each(function (i, e) {
+			$(e).css('height', '');
 			$(e).css('height', h + 'px');
 		});
 	});
@@ -27,14 +29,27 @@ var set_heights = (function (win, doc, $) {
 			var height = getter(items);
 			setter(items, height);
 		});		
-	})
+	});
+
+	var _reset = (function () {
+		parents.each(function(i, e) {
+			var items = $(e).find('.splited_content__item');
+			items.each(function (i, e) {
+				$(e).css('height', '');
+			});
+		});		
+	});
 
 	//onload
-	_init();
+	if ($(win).width() > responsive_limit) { _init(); }
+	
 
 	//onresize
 	$(win).on('resize', function () {
-		_init();		
+		var w_width = $(win).width();
+		if (w_width > responsive_limit) { _init(); }	else {
+			_reset();
+		}	
 	});
 	
 //}(window, document, jQuery));
@@ -94,7 +109,6 @@ var init_slider = (function (win, doc, $) {
 		});
 		navi_items.eq(i).addClass('active');
 	};
-
 
 }(window, document, jQuery));
 

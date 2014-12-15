@@ -82,15 +82,15 @@
 		<h2 class="section_title">Wir über uns</h2>
 		<div class="splited_content clearfix">
 			
-			<div class="splited_content__item w-40 to-left bleed-right">
-				<div class="content_description medium-space-after">
+			<div class="splited_content__item w-40 to-left bleed-right clearfix">
+				<div class="content_description medium-space-after clearfix">
 					<p>
 						Bauen mit Stahl ermöglicht wirtschaftliche und umweltfreundliche Lösungen 
 						Wir haben die Basis für die rasche und kompetente Ausführung verschiedenster Kundenwünsche:
 					</p>
 				</div>
-				<div class="content_image img_holder-all">
-					<div class="content_image__holder">
+				<div class="content_image img_holder-all clearfix">
+					<div class="content_image__holder clearfix">
 						<img src="img/rad_ph02.jpg" alt="" class="w-all">
 					</div>
 					<div class="caption_offset">
@@ -99,7 +99,7 @@
 				</div>
 			</div>
 
-			<div class="splited_content__item w-60 to-right bleed-left bg_grey">
+			<div class="splited_content__item w-60 to-right bleed-left bg_grey clearfix">
 				<ul class="content_list bleed-inside">
 					<li class="content_list__items">ISP ist 27 Jahre im Segment Stahlbauplanung tätig</li>
 					<li class="content_list__items">20 qualifizierte Mitarbeiter und Mitarbeiterinnen</li>
@@ -119,15 +119,15 @@
 		<h2 class="section_title">Unsere Stärken</h2>
 		<div class="splited_content clearfix">
 			
-			<div class="splited_content__item w-40 to-left bleed-right">
-				<div class="content_description medium-space-after">
+			<div class="splited_content__item w-40 to-left bleed-right clearfix">
+				<div class="content_description medium-space-after clearfix">
 					<p>
 						Kompetenz und Innovation zu Ihrem Vorteil: 
 						Folgerichtige und konsequente Schritte zu zeitgemäßen Stahlkonstruktionen.
 					</p>
 				</div>
-				<div class="content_image img_holder-all">
-					<div class="content_image__holder">
+				<div class="content_image img_holder-all clearfix">
+					<div class="content_image__holder clearfix">
 						<img src="img/rad_ph02.jpg" alt="" class="w-all">
 					</div>
 					<div class="caption_offset">
@@ -136,8 +136,8 @@
 				</div>
 			</div>
 
-			<div class="splited_content__item w-60 to-right bleed-left bg_grey">
-				<ul class="content_list bleed-inside">
+			<div class="splited_content__item w-60 to-right bleed-left bg_grey clearfix">
+				<ul class="content_list bleed-inside clearfix">
 					<p class="content_list__items">
 						Wir planen ihre Stahlkonstruktionen für: 
 						Chemieanlagen, Hüttenwerke, Kraftwerke, Zementwerke, Förderanlagen, Kokereien, Umwelttechnik, Sonderkonstruktionen, Versammlungsbauten, Sportstätten, Hallenbau.

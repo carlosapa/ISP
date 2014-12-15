@@ -36,7 +36,12 @@ var initialize = (function () {
 		map = new google.maps.Map(document.body.querySelector('.footer_map #map'), mapOptions);
 		map.mapTypes.set('map_style', styledMap);
 		map.setMapTypeId('map_style');
-		map.panBy(-200, 0);
+
+		if (window.innerWidth > 900) {
+			map.panBy(-200, 0);
+		} else {
+			map.panBy(0, 0);
+		}
 
 		var marker = new google.maps.Marker({
 		    position: position,

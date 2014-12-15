@@ -23,7 +23,7 @@
 					<img src="img/rad_ph02.jpg" alt="rad_ph02" class="w-all slider_image" title="rad_ph02">
 				</li>
 				<li class="slider_item relative">
-					<img src="img/rad_ph02.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
+					<img src="img/Stahlbau_1500.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
 					<div class="slider_item__block absolute w-40 h-all">
 						<h1>Stahlbau und Plannung</h1>
 						<hr>
@@ -38,8 +38,8 @@
 					</div>
 					<img src="img/Stahlbau_1500.jpg" alt="Stahlbau_1500" class="w-all slider_image" title="Stahlbau_1500">
 				</li>
-				<li class="slider_item relative">
-					<img src="img/rad_ph02.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
+				<li class="slider_item clearfix relative">
+					<img src="img/background_home.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
 					<div class="slider_item__block absolute w-40 h-all">
 						<h1>Beratung bei Projektgrundlagen-<br>erstellung</h1>
 						<hr>
