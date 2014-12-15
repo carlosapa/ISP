@@ -1,6 +1,8 @@
 /*=== set equal the heights of the splitted content ===*/
 
 var set_heights = (function (win, doc, $) {
+
+	'use strict'; 
 	
 	var parents = $('.splited_content:not(.js_not_equal)');
 	
@@ -35,12 +37,15 @@ var set_heights = (function (win, doc, $) {
 		_init();		
 	});
 	
-}(window, document, jQuery));
+//}(window, document, jQuery));
+});
+set_heights(window, document, jQuery);
 
 /*=== init anythingslider for the jumbotron slider ===*/
 
 var init_slider = (function (win, doc, $) {
 
+	'use strict'; 
 	$('.slider_items').anythingSlider({
 		expand: true,
 		resizeContents: true,
@@ -97,6 +102,7 @@ var init_slider = (function (win, doc, $) {
 /*=== init colorbox in projects page ===*/
 
 var init_colorbox = (function (w, d, $) {
+	'use strict'; 
 
 	if ($('.cboxElement').length > 0) {
 
@@ -166,14 +172,18 @@ var init_colorbox = (function (w, d, $) {
 			slideshowStop: "Slideshow anhalten"
 		});
 
-		$(cboxOverlay).on('click', function () { return false; });
+		//$(cboxOverlay).on('click', function () { return false; });
 	}
 
-}(window, document, jQuery));
+//}(window, document, jQuery));
+});
+
+init_colorbox(window, document, jQuery);
 
 /*=== Smooth scrolling to anchors ===*/
 
 var smooth_anchors = (function (win, doc, $) {
+	'use strict'; 
 
 	var trigger = '.anchor_jump';
 	var anchors = $(trigger);
@@ -185,6 +195,7 @@ var smooth_anchors = (function (win, doc, $) {
 			var target = $('a[name="' + hash + '"]');
 			
 			if (target.length) {
+				
 				
 				$(win).on('DOMContentLoaded', function (e) {	
 					window.setTimeout( function () {
@@ -224,8 +235,50 @@ var smooth_anchors = (function (win, doc, $) {
 		})
 	});
 
-}(window, document, jQuery))
+}(window, document, jQuery));
 
 
+/*=== Load new posts onscroll ===*/
+
+var infinite_scroll = (function (win, doc, $) {
+	'use strict';
+
+	var object_to_append_to = $('.section_body');
+	var load_already = 1;
+
+	if (!$('body').hasClass('projekte')) return false;
+
+	$(win).on('scroll', function (e) {
+		if ($(window).scrollTop() + $(window).height() == $(document).height()) {
+			request_new_posts(7, 10);
+		}
+	});
+
+	var request_new_posts = function (_in, _how) {
+		
+		if (load_already <= 0) return false;
+
+		var ajax = $.ajax({
+			type: 'POST',
+			url: 'tmpl/xhr_request.php',
+			data: { last_post: _in, posts_to_load: _how }
+		})
+
+		.success( function (data) {
+			var obj = $.parseJSON(data);
+			window.setTimeout(function() {
+				for (var i in obj) {
+					$(obj[i]).appendTo(object_to_append_to);
+				}
+
+				init_colorbox(window, document, jQuery);
+				set_heights(window, document, jQuery);
+
+			}, 500);
+			load_already--;
+		});
+	};
+
+}(window, document, jQuery));
 
 
