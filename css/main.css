@@ -461,6 +461,15 @@ li.content_list__items::before {
 	transform: translate(-50%, -50%);
 }
 
+/* karriere */
+
+.icon_to_pdf {
+	font-size: 1.2em;
+	top: 4px;
+	color: rgba(34, 151, 194, 0.71);
+	margin: 0 4px 0 0;
+}
+
 /* kontakt */
 
 .form-area label {

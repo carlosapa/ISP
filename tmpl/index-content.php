@@ -165,32 +165,38 @@
 		<div class="jobs grid-3 clearfix">
 			<div class="job subgrid-3 clearfix">
 				<div class="services relative">
-					<div class="services_image w-all h-all hoverable hoverable">
-						<img src="img/ingenieur-oiq-equivalence-800x533.jpg" alt="" class="w-all">
-					</div>
-					<div class="services_title absolute w-all">
-						Karriere
-					</div>
+					<a href="karriere.php#Karriere" class="display-block w-all h-all clearfix clean-link anchor_jump">
+						<div class="services_image w-all h-all hoverable hoverable">
+							<img src="img/ingenieur-oiq-equivalence-800x533.jpg" alt="" class="w-all">
+						</div>
+						<div class="services_title absolute w-all">
+							Karriere
+						</div>
+					</a>
 				</div>
 			</div>
 			<div class="job subgrid-3 clearfix">
 				<div class="services relative">
-					<div class="services_image w-all h-all hoverable hoverable">
-						<img src="img/duale-akad-ausbildung.jpg" alt="" class="w-all">
-					</div>
-					<div class="services_title absolute w-all">
-						Praktika
-					</div>
+					<a href="karriere.php#Praktika" class="display-block w-all h-all clearfix clean-link anchor_jump">
+						<div class="services_image w-all h-all hoverable hoverable">
+							<img src="img/duale-akad-ausbildung.jpg" alt="" class="w-all">
+						</div>
+						<div class="services_title absolute w-all">
+							Praktika
+						</div>
+					</a>
 				</div>
 			</div>
 			<div class="job subgrid-3 clearfix">
 				<div class="services relative">
-					<div class="services_image w-all h-all hoverable hoverable">
-						<img src="img/Fachkraftemangel_Ingenieure-.jpg" alt="" class="w-all">
-					</div>
-					<div class="services_title absolute w-all">
-						Azubis
-					</div>
+					<a href="karriere.php#Azubis" class="display-block w-all h-all clearfix clean-link anchor_jump">
+						<div class="services_image w-all h-all hoverable hoverable">
+							<img src="img/Fachkraftemangel_Ingenieure-.jpg" alt="" class="w-all">
+						</div>
+						<div class="services_title absolute w-all">
+							Azubis
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>
