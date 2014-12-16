@@ -50,7 +50,7 @@
 							Leiter oder Mitglied eines projektbezogenen Teams aus Architekten, Ingenieuren und Konstrukteuren</dd>
 						</dl>
 
-						<a class="to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
+						<a class="read_more to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
 
 					</div>
 				</div> <!-- end of offer -->
@@ -83,7 +83,7 @@
 							Mitglied eines projektbezogenen Teams von Ingenieuren und Konstrukteuren</dd>
 						</dl>
 
-						<a class="to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
+						<a class="read_more to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
 
 					</div>
 				</div> <!-- end of offer -->
@@ -126,7 +126,7 @@
 							<dd>Das Praktikum läuft als Vollzeitpraktikum über mindestens zwei Monate oder studienbegleitend mindestens einen ganzen Arbeitstag pro Woche über einen längeren Zeitraum</dd>
 						</dl>
 
-						<a class="to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
+						<a class="read_more to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
 
 					</div>
 				</div> <!-- end of offer -->
@@ -166,7 +166,7 @@
 							<dd>Erlernen dieses Berufes unter Anleitung durch Übungen und Mitarbeit in aktuellen Projekten </dd>
 						</dl>
 
-						<a class="to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
+						<a class="read_more to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
 
 					</div>
 				</div> <!-- end of offer -->

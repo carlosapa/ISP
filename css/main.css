@@ -1036,6 +1036,14 @@ li.content_list__items::before {
 		padding: 0px;
 	}
 
+	dd {
+		margin: 0;
+	}
+
+	.read_more {
+		float: left;
+	}
+
 }
 
 @media screen and (max-width: 37.5em) { /* 600px */
@@ -1133,10 +1141,6 @@ li.content_list__items::before {
 	.splited_content__item.bg_grey > a, 
 	.splited_content__item.bg_grey > dl {
 		padding: 0 24px 0 7px;
-	}
-
-	.splited_content .splited_content__item {
-		padding: 0px;
 	}
 
 	.grid-3 > .proyect_pics__items.subgrid-3:nth-child(3n) {
