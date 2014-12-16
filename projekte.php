@@ -31,10 +31,10 @@ $pics = array('ex-1', 'ex-2', 'ex-3', 'ex-4', 'ex-5');
 				<h2 class="section_title">Projekt <?php echo $i; ?></h2>
 				<div class="splited_content clearfix">
 					
-					<div class="<?php echo $classes_1; ?> w-40">
+					<div class="<?php echo $classes_1; ?> w-40 splited_content__item_imgs clearfix">
 						
 
-						<div class="proyect_pics grid-3">
+						<div class="proyect_pics grid-3 clearfix">
 							<div class="proyect_pics__items subgrid-3 overflow-hidden hoverable clickable">
 								<a href="http://www.youtube.com/embed/j6cxZp4ii6c" class="iframe <?php echo 'group' . $i; ?> cboxElement">
 									<img src="img/examples/<?php echo $pics[0]?>.jpg" class="w-all"/>

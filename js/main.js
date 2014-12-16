@@ -296,3 +296,60 @@ var infinite_scroll = (function (win, doc, $) {
 }(window, document, jQuery));
 
 
+/*=== Show menu dropdown ===*/
+
+var show_menu = (function (win, doc, $) {
+
+	var menu = $('.head_navigation__responsive');
+	var toggle = $('.navigation__toggle');
+	var classes = ['in', 'out'];
+	var animating = false;
+
+	toggle.on('click', function (e) {
+
+		if (!animating) {
+
+			if (menu.hasClass(classes[0])) {
+				menu.toggleClass(classes[0]);
+				menu.toggleClass(classes[1]);
+				animating = true;
+			
+			} else if (menu.hasClass(classes[1])) {
+				menu.toggleClass(classes[1]);
+				menu.toggleClass(classes[0]);
+				animating = true;
+			
+			} else {
+				menu.addClass(classes[0]);
+				animating = true;
+			}
+
+		}
+
+	});
+
+	menu.on('webkitAnimationEnd oanimationend msAnimationEnd animationend', function (e) {
+		animating = false;
+	})
+
+}(window, document, jQuery));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
