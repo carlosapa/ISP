@@ -70,3 +70,31 @@
 
 	</div>
 </div>
+
+<div class="head_slider head_slider__responsive">
+	<div class="head_slider__holder h-all relative clearfix">
+
+		<div class="slider_item relative">
+			<img src="img/Stahlbau_1500.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
+			<div class="slider_item__block absolute w-40 h-all">
+				<div class="slider_item__block-holder">
+					<h1>Willkommen bei ISP_1</h1>
+					<hr>
+					<p>
+						Ihrem Partner für Planung, Statik und Konstruktion von Stahlbauten und Industrieanlagen.
+						Diese Präsentation soll Ihnen einen Überblick über unsere Leistungsfähigkeit bieten.
+					</p>
+					<p>
+						Weitere Informationen geben wir Ihnen gerne. Bitte nehmen Sie Kontakt auf -
+						telefonisch, per E-mail oder über unser Feedback- Formular.
+					</p>
+				</div>
+			</div>
+		</div>
+			
+	</div>
+</div>
+
+
+
+
