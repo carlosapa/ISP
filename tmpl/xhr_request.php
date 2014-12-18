@@ -1,6 +1,6 @@
 <?php
 
-$first_index = $_POST['last_post'] + 1;
+$first_index   = $_POST['last_post'] + 1;
 $posts_to_load = $_POST['posts_to_load'];
 
 $array_return = array();
