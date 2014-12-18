@@ -7,9 +7,9 @@
 		<div class="slider_holder w-1080 div-center">
 			<ul class="slider_items">
 				<li class="slider_item relative">
-					<img src="img/rad_ph02.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
+					<img src="img/Stahlbau_1500.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
 					<div class="slider_item__block absolute w-40 h-all">
-						<h1>Willkommen bei ISP_1</h1>
+						<h1>Willkommen bei ISP</h1>
 						<hr>
 						<p>
 							Ihrem Partner für Planung, Statik und Konstruktion von Stahlbauten und Industrieanlagen.
@@ -20,10 +20,10 @@
 							telefonisch, per E-mail oder über unser Feedback- Formular.
 						</p>
 					</div>
-					<img src="img/rad_ph02.jpg" alt="rad_ph02" class="w-all slider_image" title="rad_ph02">
+					<img src="img/Stahlbau_1500.jpg" alt="rad_ph02" class="w-all slider_image" title="rad_ph02">
 				</li>
 				<li class="slider_item relative">
-					<img src="img/Stahlbau_1500.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
+					<img src="img/Halle_mit_Plan_I.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
 					<div class="slider_item__block absolute w-40 h-all">
 						<h1>Stahlbau und Plannung</h1>
 						<hr>
@@ -36,7 +36,7 @@
 							telefonisch, per E-mail oder über unser Feedback- Formular.
 						</p>
 					</div>
-					<img src="img/Stahlbau_1500.jpg" alt="Stahlbau_1500" class="w-all slider_image" title="Stahlbau_1500">
+					<img src="img/Halle_mit_Plan_I.jpg" alt="Stahlbau_1500" class="w-all slider_image" title="Stahlbau_1500">
 				</li>
 				<li class="slider_item clearfix relative">
 					<img src="img/background_home.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
@@ -78,7 +78,7 @@
 			<img src="img/Stahlbau_1500.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
 			<div class="slider_item__block absolute w-40 h-all">
 				<div class="slider_item__block-holder">
-					<h1>Willkommen bei ISP_1</h1>
+					<h1>Willkommen bei ISP</h1>
 					<hr>
 					<p>
 						Ihrem Partner für Planung, Statik und Konstruktion von Stahlbauten und Industrieanlagen.

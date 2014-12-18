@@ -128,7 +128,7 @@
 				</div>
 				<div class="content_image img_holder-all clearfix">
 					<div class="content_image__holder clearfix">
-						<img src="img/rad_ph02.jpg" alt="" class="w-all">
+						<img src="img/Halle_2.jpg" alt="" class="w-all">
 					</div>
 					<div class="caption_offset">
 						<span>Picture Caption 1</span>
