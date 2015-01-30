@@ -18,6 +18,9 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/anythingSlider.css">
 
+        <link rel="stylesheet" href="_UI/css_ui.css">
+        <link rel="stylesheet" href="libs/owl.carousel/owl.carousel.css">
+
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/maps_controller.js"></script>
     </head>

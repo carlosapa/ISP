@@ -21,14 +21,14 @@ var initialize = (function () {
 	};
 
 	if (document.body.querySelector('.section #map') !== null) {
-		map_kontakt = new google.maps.Map(document.body.querySelector('.section #map'), mapOptions);
-		map_kontakt.mapTypes.set('map_style', styledMap);
-		map_kontakt.setMapTypeId('map_style');
-		map_kontakt.panBy(0, 0);
+		map = new google.maps.Map(document.body.querySelector('.section #map'), mapOptions);
+		map.mapTypes.set('map_style', styledMap);
+		map.setMapTypeId('map_style');
+		map.panBy(0, 0);
 
 		var marker = new google.maps.Marker({
 		    position: position,
-		    map: map_kontakt	
+		    map: map	
 		});
 	}
 
@@ -49,8 +49,25 @@ var initialize = (function () {
 		});
 	}
 
+	if (document.body.querySelector('.section #map') !== null || document.body.querySelector('.footer_map #map') !== null) {
+		google.maps.event.addListener(marker, 'click', function(e) {
+		    
+		    var _map = map;
+
+		    var lat = e.latLng.lat();
+		    var lng = e.latLng.lng();
+		    var zoom = _map.data.map.zoom;
+		    var http = 'https://www.google.de/maps/dir//';
+
+		    var url = http + lat + ',' +  lng + '/@' + lat + ',' +  lng + ',' + zoom + 'z';
+		   	console.log(url);
+		    window.open(url);
+		});
+	}
 
 });
 
 loadScript('http://maps.googleapis.com/maps/api/js?v=3&sensor=false&callback=initialize', function(){});
 
+
+//https://www.google.es/maps/dir//50.5219376,12.1452744/@50.5214124,12.1455372,17z

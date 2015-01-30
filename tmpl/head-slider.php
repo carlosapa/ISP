@@ -1,14 +1,15 @@
 <div class="head_slider">
-	<div class="head_slider__holder h-all relative clearfix">
-		<div class="slider_back to-left w-10 h-all absolute">
-			<img src="img/arrows_left.png" title="navigate to left" alt="to_left" class="clickable"/>
-		</div>
+	<div class="head_slider__holder clearfix">
 		
-		<div class="slider_holder w-1080 div-center">
-			<ul class="slider_items">
-				<li class="slider_item relative">
-					<img src="img/Stahlbau_1500.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
-					<div class="slider_item__block absolute w-40 h-all">
+		<div class="slider_navigation slider_navigation--left"></div>
+
+		<div class="slider_holder div-center w-1080 ">
+			<div class="slider_items ui clearfix">
+				<div class="slider_item">
+					<div class="slider_item__img">
+						<img src="img/Stahlbau_1500.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
+					</div>
+					<div class="slider_item__block">
 						<h1>Willkommen bei ISP</h1>
 						<hr>
 						<p>
@@ -20,11 +21,12 @@
 							telefonisch, per E-mail oder über unser Feedback- Formular.
 						</p>
 					</div>
-					<img src="img/Stahlbau_1500.jpg" alt="rad_ph02" class="w-all slider_image" title="rad_ph02">
-				</li>
-				<li class="slider_item relative">
-					<img src="img/Halle_mit_Plan_I.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
-					<div class="slider_item__block absolute w-40 h-all">
+				</div>
+				<div class="slider_item clearfix">
+					<div class="slider_item__img">
+						<img src="img/Halle_mit_Plan_I.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
+					</div>
+					<div class="slider_item__block">
 						<h1>Stahlbau und Plannung</h1>
 						<hr>
 						<p>
@@ -36,11 +38,12 @@
 							telefonisch, per E-mail oder über unser Feedback- Formular.
 						</p>
 					</div>
-					<img src="img/Halle_mit_Plan_I.jpg" alt="Stahlbau_1500" class="w-all slider_image" title="Stahlbau_1500">
-				</li>
-				<li class="slider_item clearfix relative">
-					<img src="img/background_home.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
-					<div class="slider_item__block absolute w-40 h-all">
+				</div>
+				<div class="slider_item clearfix">
+					<div class="slider_item__img">							
+						<img src="img/background_home.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
+					</div>
+					<div class="slider_item__block">
 						<h1>Beratung bei Projektgrundlagen-<br>erstellung</h1>
 						<hr>
 						<p>
@@ -52,27 +55,18 @@
 							telefonisch, per E-mail oder über unser Feedback- Formular.
 						</p>
 					</div>
-					<img src="img/background_home.jpg" alt="background_home" class="w-all slider_image" title="background_home">
-				</li>
-			</ul>
-
-			<div class="slider_navi">
-				<div class="slider_navi_item active" data-slider-panel="1"><span></span></div>
-				<div class="slider_navi_item" data-slider-panel="2"><span></span></div>
-				<div class="slider_navi_item" data-slider-panel="3"><span></span></div>
+				</div>
 			</div>
 		</div>
-		
-		<div class="slider_next to-left w-10 h-all absolute talign_right">
-			<img src="img/arrows_right.png" title="navigate to right" alt="to_right" class="clickable"/>
-		</div>
 
+		<div class="slider_navigation slider_navigation--right"></div>
 
 	</div>
 </div>
 
+
 <div class="head_slider head_slider__responsive">
-	<div class="head_slider__holder h-all relative clearfix">
+	<div class="head_slider__holder div-center w-1080 h-all relative clearfix">
 
 		<div class="slider_item relative">
 			<img src="img/Stahlbau_1500.jpg" alt="rad_ph02" class="w-all slider_image__res" title="rad_ph02">
@@ -94,7 +88,3 @@
 			
 	</div>
 </div>
-
-
-
-

@@ -4,7 +4,13 @@
 	 			<div class="footer_menu w-60 to-left">
 	 				<ul class="footer_items menu-inline navigation_items">
 	 					<li class="footer_item navigation_item">
-	 						<a href="unternehmen.php" class="clean_link">Unternehmen</a>
+	 						<a href="unternehmen.php" class="clean_link">Das Unternehmen</a>
+	 					</li>
+						<li class="footer_item navigation_item">
+	 						<a href="projekte.php" class="clean_link">Projekte</a>
+	 					</li>
+						<li class="footer_item navigation_item">
+	 						<a href="dienstleistungen.php" class="clean_link">Diensleistungen</a>
 	 					</li>
 	 					<li class="footer_item navigation_item">
 	 						<a href="karriere.php" class="clean_link">Karriere</a>
@@ -19,7 +25,7 @@
 	 			</div>
  				
  				<div class="footer_logo w-40 to-right"> 
- 					<img src="img/ISP-Logo neu positiv blau.png" alt="logo" title="logo">
+ 					<img src="img/logo_new-02.png" alt="logo" title="logo">
  				</div>
 
  			</div>
@@ -33,6 +39,7 @@
         <script src="js/vendor/jquery.easing.1.3.min.js"></script>
         <script src="libs/AnythingSlider-master/js/jquery.anythingslider.min.js"></script>
         <script src="libs/colorbox-master/jquery.colorbox-min.js"></script>
+		<script src="libs/owl.carousel/owl.carousel.min.js"></script>
 
         <!-- bower:js -->
 		<!-- endbower -->

@@ -22,71 +22,76 @@
 					<p class="talign_justify">Dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>
 				</div>
 
-				<div class="splited_content js_not_equal medium-space-before clearfix">
+				<div class="carreer_block medium-space-before clearfix">
 					
-					<div class="splited_content__item w-25 to-left bleed-right">
+					<div class="carreer_subblock w-25 to-left bleed-right">
 						<div class="services  w-all h-all relative">
 							<div class="services_image w-all h-all">
 								<img src="img/foto2008.jpg" alt="" class="w-all">
 							</div>
 						</div>
-					</div>
+					</div><!-- end of carreer_block pic -->
 
-					<div class="splited_content__item w-75 to-right bleed-left bg_grey">
-						<h4>Projektingenieur / Statiker Industriestahlbau</h4>
+					<div class="feat__block carreer_subblock w-75 to-right bleed-left clearfix">
+						<div class="feat__content">
+						
+							<h4>Projektingenieur / Statiker Industriestahlbau</h4>
+							<dl>
+								<dt>Ihre fachliche Qualifikation: </dt>
+								<dd>Ingenieur für Stahlbau, Bauwesen oder Maschinenbau 
+								mindestens 3 Jahre Erfahrung in Konstruktion, Planung und Statik 
+								sehr gute Kenntnisse in mindestens einem CAD-Programm und dem Statikprogramm R-Stab 
+								gute Kenntnisse in Office Anwendungen</dd>						
 
-						<dl>
-							<dt>Ihre fachliche Qualifikation: </dt>
-							<dd>Ingenieur für Stahlbau, Bauwesen oder Maschinenbau 
-							mindestens 3 Jahre Erfahrung in Konstruktion, Planung und Statik 
-							sehr gute Kenntnisse in mindestens einem CAD-Programm und dem Statikprogramm R-Stab 
-							gute Kenntnisse in Office Anwendungen</dd>						
+								<dt>Ihre persönliche Qualifikation: </dt>
+								<dd>zielstrebig, eigenmotiviert, teamfähig, belastbar</dd>
 
-							<dt>Ihre persönliche Qualifikation: </dt>
-							<dd>zielstrebig, eigenmotiviert, teamfähig, belastbar</dd>
+								<dt>Ihre Aufgaben: </dt>
+								<dd>Planung und (Vor-)Berechnung von Stahlkonstruktionen des Industrie- und Anlagenbaus, 
+								Leiter oder Mitglied eines projektbezogenen Teams aus Architekten, Ingenieuren und Konstrukteuren</dd>
+							</dl>
 
-							<dt>Ihre Aufgaben: </dt>
-							<dd>Planung und (Vor-)Berechnung von Stahlkonstruktionen des Industrie- und Anlagenbaus, 
-							Leiter oder Mitglied eines projektbezogenen Teams aus Architekten, Ingenieuren und Konstrukteuren</dd>
-						</dl>
+							<a class="read_more to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
+						</div>
+					</div><!-- end of feat__block -->
 
-						<a class="read_more to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
+				</div><!-- end of carreer_block -->
 
-					</div>
-				</div> <!-- end of offer -->
 
-				<div class="splited_content js_not_equal medium-space-before clearfix">
+				<div class="carreer_block medium-space-before clearfix">
 					
-					<div class="splited_content__item w-25 to-left bleed-right">
+					<div class="carreer_subblock w-25 to-left bleed-right">
 						<div class="services  w-all h-all relative">
 							<div class="services_image w-all h-all">
 								<img src="img/foto2008.jpg" alt="" class="w-all">
 							</div>
 						</div>
-					</div>
+					</div><!-- end of carreer_block pic -->
 
-					<div class="splited_content__item w-75 to-right bleed-left bg_grey">
-						<h4>Konstrukteur Stahlbau</h4>
+					<div class="feat__block carreer_subblock w-75 to-right bleed-left clearfix">
+						<div class="feat__content">
+						
+							<h4>Konstrukteur Stahlbau</h4>
+							<dl>
+								<dt>Ihre fachliche Qualifikation: </dt>
+								<dd>Ingenieur für Stahlbau, Bauwesen oder Maschinenbau 
+								mindestens 3 Jahre Erfahrung in Konstruktion und Planung 
+								sehr gute Kenntnisse in mindestens einem CAD-Programm (BOCAD, MicroStation, AutoCad o.ä.) 
+								gute Kenntnisse in Office Anwendungen</dd>						
 
-						<dl>
-							<dt>Ihre fachliche Qualifikation: </dt>
-							<dd>Ingenieur für Stahlbau, Bauwesen oder Maschinenbau 
-							mindestens 3 Jahre Erfahrung in Konstruktion und Planung 
-							sehr gute Kenntnisse in mindestens einem CAD-Programm (BOCAD, MicroStation, AutoCad o.ä.) 
-							gute Kenntnisse in Office Anwendungen</dd>						
+								<dt>Ihre persönliche Qualifikation: </dt>
+								<dd>zielstrebig, eigenmotiviert, teamfähig, belastbar</dd>
 
-							<dt>Ihre persönliche Qualifikation: </dt>
-							<dd>zielstrebig, eigenmotiviert, teamfähig, belastbar</dd>
+								<dt>Ihre Aufgaben: </dt>
+								<dd>Konstruktionen von Stahlkonstruktionen des Industrie- und Anlagenbaus, 
+								Mitglied eines projektbezogenen Teams von Ingenieuren und Konstrukteuren</dd>
+							</dl>
 
-							<dt>Ihre Aufgaben: </dt>
-							<dd>Konstruktionen von Stahlkonstruktionen des Industrie- und Anlagenbaus, 
-							Mitglied eines projektbezogenen Teams von Ingenieuren und Konstrukteuren</dd>
-						</dl>
+							<a class="read_more to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
+						</div>
+					</div><!-- end of feat__block -->
 
-						<a class="read_more to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
-
-					</div>
-				</div> <!-- end of offer -->
+				</div><!-- end of carreer_block -->
 
 			</div><!-- end of content__section -->
 
@@ -98,38 +103,41 @@
 					<p class="talign_justify">Dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>
 				</div>
 
-				<div class="splited_content js_not_equal medium-space-before clearfix">
+				<div class="carreer_block medium-space-before clearfix">
 					
-					<div class="splited_content__item w-25 to-left bleed-right">
+					<div class="carreer_subblock w-25 to-left bleed-right">
 						<div class="services  w-all h-all relative">
 							<div class="services_image w-all h-all">
 								<img src="img/praktikant.jpg" alt="" class="w-all">
 							</div>
 						</div>
-					</div>
+					</div><!-- end of carreer_block pic -->
 
-					<div class="splited_content__item w-75 to-right bleed-left bg_grey">
-						<h4>Praktikant Bauingenieurwesen</h4>
+					<div class="feat__block carreer_subblock w-75 to-right bleed-left clearfix">
+						<div class="feat__content">
+						
+							<h4>Praktikant Bauingenieurwesen</h4>							
+	
+							<dl>
+								<dt>Ihre Qualifikation: </dt>
+								<dd>Student des Bauingenieurwesens 
+								Vertiefungsrichtung: Konstruktiver Ingenieurbau 
+								Studienschwerpunkte Stahlbau und/oder Stahlbetonbau mit abgelegtem Vordiplom
+								gute Kenntnisse in mindestens einem CAD-Programm 
+								gute Kenntnisse in Office Anwendungen.</dd>						
 
-						<dl>
-							<dt>Ihre Qualifikation: </dt>
-							<dd>Student des Bauingenieurwesens 
-							Vertiefungsrichtung: Konstruktiver Ingenieurbau 
-							Studienschwerpunkte Stahlbau und/oder Stahlbetonbau mit abgelegtem Vordiplom
-							gute Kenntnisse in mindestens einem CAD-Programm 
-							gute Kenntnisse in Office Anwendungen.</dd>						
+								<dt>Ihre Aufgaben: </dt>
+								<dd>Mitarbeit in aktuellen Projekten</dd>
 
-							<dt>Ihre Aufgaben: </dt>
-							<dd>Mitarbeit in aktuellen Projekten</dd>
+								<dt>Mindestdauer: </dt>
+								<dd>Das Praktikum läuft als Vollzeitpraktikum über mindestens zwei Monate oder studienbegleitend mindestens einen ganzen Arbeitstag pro Woche über einen längeren Zeitraum</dd>
+							</dl>
 
-							<dt>Mindestdauer: </dt>
-							<dd>Das Praktikum läuft als Vollzeitpraktikum über mindestens zwei Monate oder studienbegleitend mindestens einen ganzen Arbeitstag pro Woche über einen längeren Zeitraum</dd>
-						</dl>
+							<a class="read_more to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
+						</div>
+					</div><!-- end of feat__block -->
 
-						<a class="read_more to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
-
-					</div>
-				</div> <!-- end of offer -->
+				</div><!-- end of carreer_block -->
 
 			</div><!-- end of content__section -->
 
@@ -141,35 +149,37 @@
 					<p class="talign_justify">Dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>
 				</div>
 
-				<div class="splited_content js_not_equal medium-space-before clearfix">
+				<div class="carreer_block medium-space-before clearfix">
 					
-					<div class="splited_content__item w-25 to-left bleed-right">
+					<div class="carreer_subblock w-25 to-left bleed-right">
 						<div class="services  w-all h-all relative">
 							<div class="services_image w-all h-all">
 								<img src="img/azubi.jpg" alt="" class="w-all">
 							</div>
 						</div>
-					</div>
+					</div><!-- end of carreer_block pic -->
 
-					<div class="splited_content__item w-75 to-right bleed-left bg_grey">
-						<h4>Azubi Bauzeichner/Stahlbauzeichner</h4>
+					<div class="feat__block carreer_subblock w-75 to-right bleed-left clearfix">
+						<div class="feat__content">
+						
+							<h4>Azubi Bauzeichner/Stahlbauzeichner</h4>							
+							<dl>
+								<dt>Ihre Qualifikation: </dt>
+								<dd>Abitur, Fachabitur, zeichnerische Begabung, PC-Erfahrungen, 
+								Kenntnisse in Office Anwendungen</dd>						
 
-						<dl>
-							<dt>Ihre Qualifikation: </dt>
-							<dd>Abitur, Fachabitur, zeichnerische Begabung, PC-Erfahrungen, 
-							Kenntnisse in Office Anwendungen</dd>						
+								<dt>Ihre persönlichen Voraussetzungen: </dt>
+								<dd>Zielstrebig, eigenmotiviert, teamfähig, belastbar </dd>
 
-							<dt>Ihre persönlichen Voraussetzungen: </dt>
-							<dd>Zielstrebig, eigenmotiviert, teamfähig, belastbar </dd>
+								<dt>Ihre Aufgaben: </dt>
+								<dd>Erlernen dieses Berufes unter Anleitung durch Übungen und Mitarbeit in aktuellen Projekten </dd>
+							</dl>
 
-							<dt>Ihre Aufgaben: </dt>
-							<dd>Erlernen dieses Berufes unter Anleitung durch Übungen und Mitarbeit in aktuellen Projekten </dd>
-						</dl>
+							<a class="read_more to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
+						</div>
+					</div><!-- end of feat__block -->
+				</div><!-- end of carreer_block -->
 
-						<a class="read_more to-right clean_link" href="#"><span class="icon icon-file icon_to_pdf"></span>Mehr erfahren.</a>
-
-					</div>
-				</div> <!-- end of offer -->
 
 			</div><!-- end of content__section -->
 

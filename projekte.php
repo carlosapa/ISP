@@ -27,57 +27,63 @@ $pics = array('ex-1', 'ex-2', 'ex-3', 'ex-4', 'ex-5');
 				shuffle($pics);
 			?>
 
-			<div class="content__section medium-space-after clearfix">
+			<div class="project_block clearfix">
 				<h2 class="section_title">Projekt <?php echo $i; ?></h2>
+				
 				<div class="splited_content clearfix">
-					
-					<div class="<?php echo $classes_1; ?> w-40 splited_content__item_imgs clearfix">
+					<div class="splited_content__item clearfix">
 						
-
 						<div class="proyect_pics grid-3 clearfix">
 							<div class="proyect_pics__items subgrid-3 overflow-hidden hoverable clickable">
 								<a href="http://www.youtube.com/embed/j6cxZp4ii6c" class="iframe <?php echo 'group' . $i; ?> cboxElement">
-									<img src="img/examples/<?php echo $pics[0]?>.jpg" class="w-all"/>
+									<img src="img/examples/<?php echo $pics[0]?>.jpg" class="w-all">
 								</a>
 							</div>
 							<div class="proyect_pics__items subgrid-3 overflow-hidden hoverable clickable">
-								<a href="img/examples/<?php echo $pics[1]?>.jpg" class="<?php echo 'group' . $i; ?> cboxElement">
-									<img src="img/examples/<?php echo $pics[1]?>.jpg" class="w-all"/>
+								<a href="img/examples/<?php echo $pics[1]?>.jpg" class="group1 cboxElement">
+									<img src="img/examples/<?php echo $pics[1]?>.jpg" class="w-all">
 								</a>
 							</div>
 							<div class="proyect_pics__items subgrid-3 overflow-hidden hoverable clickable">
-								<a href="img/examples/<?php echo $pics[2]?>.jpg" class="<?php echo 'group' . $i; ?> cboxElement">
-									<img src="img/examples/<?php echo $pics[2]?>.jpg" class="w-all"/>
+								<a href="img/examples/<?php echo $pics[2]?>.jpg" class="group1 cboxElement">
+									<img src="img/examples/<?php echo $pics[2]?>.jpg" class="w-all">
 								</a>
 							</div>
 							<div class="proyect_pics__items subgrid-3 overflow-hidden hoverable clickable">
-								<a href="img/examples/<?php echo $pics[3]?>.jpg" class="<?php echo 'group' . $i; ?> cboxElement">
-									<img src="img/examples/<?php echo $pics[3]?>.jpg" class="w-all"/>
+								<a href="img/examples/<?php echo $pics[3]?>.jpg" class="group1 cboxElement">
+									<img src="img/examples/<?php echo $pics[3]?>.jpg" class="w-all">
 								</a>
 							</div>
 							<div class="proyect_pics__items subgrid-3 overflow-hidden hoverable clickable">
-								<a href="img/examples/<?php echo $pics[4]?>.jpg" class="<?php echo 'group' . $i; ?> cboxElement">
-									<img src="img/examples/<?php echo $pics[4]?>.jpg" class="w-all"/>
+								<a href="img/examples/<?php echo $pics[4]?>.jpg" class="group1 cboxElement">
+									<img src="img/examples/<?php echo $pics[4]?>.jpg" class="w-all">
 								</a>
 							</div>
 						</div>
 
 					</div>
 
-					<div class="<?php echo $classes_2; ?> bg_grey bleed-inside w-60">
-						<ul class="content_list bleed-inside">
-							<li class="content_list__items">ISP ist 27 Jahre im Segment Stahlbauplanung tätig</li>
-							<li class="content_list__items">20 qualifizierte Mitarbeiter und Mitarbeiterinnen</li>
-							<li class="content_list__items">27 Jahre Erfahrung eines modernen Büros ein umfangreiches Leistungssortiment</li>
-							<li class="content_list__items">Die technische Ausstattung mit 20 CAD Arbeitsplätzen und zugehöriger </li>
-							<li class="content_list__items">Software für Statik, Planung und Konstruktion</li>
-							<li class="content_list__items">Mitgliedschaften zum Vorteil unserer Kunden</li>
-							<li class="content_list__items">Beratende Ingenieure IK Bau NW</li>
-							<li class="content_list__items">Deutscher Stahlbauverband</li>
-						</ul>
+					<div class="splited_content__item feat__block clearfix">
+						<div class="feat__content clearfix">					
+							<p>
+								Wir planen ihre Stahlkonstruktionen für: 
+								Chemieanlagen, Hüttenwerke, Kraftwerke, Zementwerke, Förderanlagen, Kokereien, Umwelttechnik, Sonderkonstruktionen, Versammlungsbauten, Sportstätten, Hallenbau.
+								Leistungen für den Industrie- und Hochbau:
+							</p>
+							<ul>
+								<li>Beratung bei Projektgrundlagenerstellung</li>
+								<li>Eigenverantwortliche Problemlösungen bei Projekterstellung</li>
+								<li>Problemlösung von Bauherrenaufgaben</li>
+								<li>Problemlösung von Objektplanungsaufgaben</li>
+								<li>Problemlösung von Anlagenplanungsaufgaben</li>
+								<li>Berücksichtigung von Fertigungsvorgaben</li>
+								<li>Baustellenüberwachung</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div> <!-- end of content__section services -->
+			</div>
+
 			<?php endfor; ?>
 
 		</div>
@@ -85,3 +91,6 @@ $pics = array('ex-1', 'ex-2', 'ex-3', 'ex-4', 'ex-5');
 </div>
 
 <?php include_once('tmpl/footer.php'); ?>
+
+
+		
